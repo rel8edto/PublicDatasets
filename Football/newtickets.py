@@ -46,7 +46,7 @@ seatsdf = pd.concat([seatsdf, sold])
 seatsdf['ticketkey'] = seatsdf['date'] + seatsdf['name']
 idx = list(seatsdf['ticketkey'].unique())
 seatsdf['ticketid'] = seatsdf['ticketkey'].apply(lambda x: idx.index(x))
-
+seatsdf['Month'] = seatsdf['date'].apply(lambda x: x[-3:])
 
 seatsdf.to_csv('ticket.csv', index=0)
 
