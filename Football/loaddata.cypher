@@ -9,7 +9,7 @@ load csv with headers from 'https://github.com/rel8edto/PublicDatasets/raw/main/
 
 load csv with headers from 'https://github.com/rel8edto/PublicDatasets/raw/main/Football/seat.csv' as line match (s:Seat), (sc:Section) where s.seatid = line.SeatsID and sc.name = line.Section merge (s)-[:LOCATED_IN]->(sc);
 
-load csv with headers from 'https://github.com/rel8edto/PublicDatasets/raw/main/Football/ticket.csv' as line with distinct line.ticketid as ticketid, line.date as dt merge (t:Ticket {ticketID:ticketid, date:dt});
+load csv with headers from 'https://github.com/rel8edto/PublicDatasets/raw/main/Football/ticket.csv' as line with distinct line.ticketid as ticketid, line.date as dt,line.month as month merge (t:Ticket {ticketID:ticketid, date:dt, month:month});
 // create constraint on (t:Ticket) assert t.ticketID is unique;
 
 load csv with headers from 'https://github.com/rel8edto/PublicDatasets/raw/main/Football/ticket.csv' as line match (t:Ticket) ,(s:Seat) where t.ticketID = line.ticketid and s.name = line.seat merge (t)-[:BOOKED]->(s); 
@@ -34,4 +34,4 @@ match (e:Event)-[r:COMMITED]-(t:Ticket) set t:Marked;
 
 
 # person risk
-match (t:Ticket)--(p:Person) optional match (t)--(e:Event)  with  distinct p.name as name, count(e) as events, count(t) as tickets with *, toFloat(events)/tickets as risk return * order by risk desc
+match (t:Ticket)--(p:Person) optional match (t)--(e:Event)  with  distinct p.name as name, count(e) as events, count(t) as tickets with *, toFloat(events)/tickets as risk return * order by risk desc;
