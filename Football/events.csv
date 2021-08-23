@@ -1,39 +1,39 @@
-EvtID,ticketID,Type,SecurityGuardTeam
-1,568,Warning,C
-2,63,Knife,B
-3,250,Knife,A
-4,273,Eject,B
-5,193,Warning,B
-6,113,Warning,C
-7,267,Knife,C
-8,247,Warning,A
-9,12,Warning,B
-10,357,Warning,B
-11,454,Fight,B
-12,452,Knife,C
-13,145,Knife,C
-14,166,Fight,C
-15,147,Warning,B
-16,159,Warning,A
-17,485,Fight,A
-18,546,Knife,A
-19,426,Eject,B
-20,192,Eject,C
-21,27,Knife,C
-22,52,Knife,C
-23,319,Fight,A
-24,239,Fight,B
-25,187,Fight,B
-26,530,Knife,A
-27,97,Knife,B
-28,228,Knife,C
-29,343,Eject,C
-30,295,Knife,C
-31,521,Eject,B
-32,93,Knife,B
-33,542,Knife,C
-34,91,Warning,C
-35,123,Warning,B
-36,431,Eject,A
-37,444,Warning,C
-38,19,Warning,A
+EvtID,ticketID,Type,SecurityGuardTeam,Person,Gate,Softdrink,Beer,Hotdog,Book,Seat,Seat.1,Seat.2,date,ticketkey,ticketid
+6,113,Warning,A,Crispin Ralf,A,,Beer,,,A6,A7,,19-Jan,19-JanCrispin Ralf,87
+32,93,Knife,A,Kortney Gord,A,,Beer,,,A7,A8,,19-Jan,19-JanKortney Gord,88
+10,357,Warning,A,Sanjana Pooja,A,,,,,A10,A11,,19-Jan,19-JanSanjana Pooja,89
+30,295,Warning,A,Crispin Ralf,A,Softdrink,Beer,Hotdog,,A4,,,21-Jan,21-JanCrispin Ralf,90
+20,192,Eject,A,Kortney Gord,A,Softdrink,Beer,,,A7,,,22-Jan,22-JanKortney Gord,91
+8,247,Warning,B,Kortney Gord,A,,Beer,Hotdog,,A6,,,23-Jan,23-JanKortney Gord,92
+22,52,Warning,B,Sanjana Pooja,A,,Beer,Hotdog,,A10,,,23-Jan,23-JanSanjana Pooja,93
+18,546,Warning,B,Crispin Ralf,A,,Beer,Hotdog,Book,A5,A6,,24-Jan,24-JanCrispin Ralf,94
+34,91,Warning,C,Sanjana Pooja,A,,Beer,Hotdog,,A10,A11,,24-Jan,24-JanSanjana Pooja,95
+29,343,Eject,C,Sanjana Pooja,A,,Beer,,,A7,A8,A9,25-Jan,25-JanSanjana Pooja,96
+14,166,Fight,C,Oswin Tillie,B,Softdrink,Beer,,,B9,B10,B11,19-Jan,19-JanOswin Tillie,97
+4,273,Eject,C,Oswin Tillie,B,,Beer,Hotdog,,B9,,,20-Jan,20-JanOswin Tillie,98
+31,521,Eject,C,Rachyl Roly,B,,Beer,Hotdog,,B6,B7,B8,20-Jan,20-JanRachyl Roly,99
+2,63,Knife,C,Rachyl Roly,B,,Beer,Hotdog,,B2,B3,,21-Jan,21-JanRachyl Roly,100
+26,530,Fight,C,Oswin Tillie,B,,Beer,Hotdog,,B6,,,22-Jan,22-JanOswin Tillie,101
+19,426,Eject,C,Rachyl Roly,B,Softdrink,Beer,Hotdog,,B8,B9,,22-Jan,22-JanRachyl Roly,102
+35,123,Warning,C,Sinclair Kendal,B,,Beer,Hotdog,,B5,,,22-Jan,22-JanSinclair Kendal,103
+3,250,Knife,C,Rachyl Roly,B,Softdrink,Beer,,,B5,B6,B7,23-Jan,23-JanRachyl Roly,104
+11,454,Fight,B,Sinclair Kendal,B,Softdrink,,Hotdog,,B6,B7,B8,23-Jan,23-JanSinclair Kendal,105
+23,319,Fight,A,Sinclair Kendal,B,Softdrink,,Hotdog,,B4,B5,B6,24-Jan,24-JanSinclair Kendal,106
+21,27,Fight,B,Sheri John Paul,C,,Beer,,,C4,,,19-Jan,19-JanSheri John Paul,107
+17,485,Fight,B,Crispin Ralf,C,,Beer,Hotdog,,C9,C10,,20-Jan,20-JanCrispin Ralf,108
+16,159,Warning,B,Sheri John Paul,C,,Beer,Hotdog,,C4,C5,,20-Jan,20-JanSheri John Paul,109
+33,542,Knife,B,Sheri John Paul,C,Softdrink,Beer,,,C9,C10,,23-Jan,23-JanSheri John Paul,110
+1,568,Warning,B,Sheri John Paul,C,,Beer,Hotdog,,C2,C3,,25-Jan,25-JanSheri John Paul,111
+37,444,Warning,B,Mikayla Nevil,D,Softdrink,Beer,,,D11,D12,D13,19-Jan,19-JanMikayla Nevil,112
+5,193,Warning,B,Ryder Elissa,D,Softdrink,Beer,,,D9,D10,,21-Jan,21-JanRyder Elissa,113
+15,147,Warning,B,Ryder Elissa,D,,Beer,Hotdog,,D6,D7,,23-Jan,23-JanRyder Elissa,114
+38,19,Warning,B,Oswin Tillie,D,Softdrink,,,,D4,D5,D6,25-Jan,25-JanOswin Tillie,115
+36,431,Eject,A,Izabelle Kelli,E,Softdrink,Beer,Hotdog,,E11,,,19-Jan,19-JanIzabelle Kelli,116
+24,239,Fight,A,Izabelle Kelli,E,Softdrink,Beer,Hotdog,,E6,E7,,20-Jan,20-JanIzabelle Kelli,117
+28,228,Warning,A,Izabelle Kelli,E,,Beer,Hotdog,,E7,E8,,21-Jan,21-JanIzabelle Kelli,118
+12,452,Warning,A,Izabelle Kelli,E,Softdrink,Beer,,,E8,,,22-Jan,22-JanIzabelle Kelli,119
+13,145,Warning,C,Mikayla Nevil,E,,Beer,Hotdog,,E7,E8,,22-Jan,22-JanMikayla Nevil,120
+7,267,Knife,C,Rachyl Roly,F,,Beer,Hotdog,,F8,F9,,24-Jan,24-JanRachyl Roly,121
+27,97,Warning,B,Ryder Elissa,F,,Beer,Hotdog,,F5,,,24-Jan,24-JanRyder Elissa,122
+25,187,Fight,B,Mikayla Nevil,F,Softdrink,,,,F8,F9,F10,25-Jan,25-JanMikayla Nevil,123
+9,12,Warning,B,Sheri John Paul,H,,Beer,,,H8,,,22-Jan,22-JanSheri John Paul,124
