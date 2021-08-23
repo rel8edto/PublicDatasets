@@ -5,7 +5,9 @@ person = pd.read_csv('person.csv')
 
 events = pd.read_csv('events.csv').dropna(how='all')
 
-events
+events[['EvtID', 'ticketID', 'Type', 'SecurityGuardTeam', 'Person', 'Gate',
+       'Softdrink', 'Beer', 'Hotdog', 'Book', 'Seat', 'Seat.1', 'Seat.2',
+       'date']]
 
 sold = pd.melt(events[['Seat', 'Seat.1', 'Seat.2', 'date','Person']],['date','Person']).dropna()
 
@@ -13,14 +15,13 @@ seats = [f'{g}{n}' for g in 'ABCDEFGH' for n in range(1,21)]
 
 dates = list(sold['date'].unique())
 
-dates += ['26-Jan','27-Jan','28-Jan','29-Jan','30-Jan','31-Jan',
-        '1-Feb','2-Feb','3-Feb','4-Feb','5-Feb','6-Feb','7-Feb','8-Feb','9-Feb','10-Feb','11-Feb','12-Feb','13-Feb',
+dates += ['1-Feb','2-Feb','3-Feb','4-Feb','5-Feb','6-Feb','7-Feb','8-Feb','9-Feb','10-Feb','11-Feb','12-Feb','13-Feb',
         '14-Feb','15-Feb','16-Feb','17-Feb','18-Feb','19-Feb','20-Feb','21-Feb','22-Feb','23-Feb']
 
 bookings = []
 for day in dates:
-    # goodguys = person.query('commit.isna()')['Name'].unique()
-    goodguys = person['Name'].unique()
+    goodguys = person.query('commit.isna()')['Name'].unique()
+    goodguys = [guy for guy in goodguys if guy not in sold.loc[sold['date']==day,'Person'].unique()]
     random.shuffle(goodguys)
     goodguys[3] = None
     for gate in  'ABCDEFGH':
