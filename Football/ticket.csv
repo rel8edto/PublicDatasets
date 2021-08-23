@@ -1,596 +1,1008 @@
-tiketID,date,name,Qty,SeatsID
-1,19-Jan,13,10,159
-2,19-Jan,1,5,44
-3,19-Jan,25,5,124
-4,19-Jan,22,2,91
-5,19-Jan,13,7,138
-6,19-Jan,17,7,13
-7,19-Jan,4,1,45
-8,19-Jan,24,7,147
-9,19-Jan,7,10,57
-10,19-Jan,8,4,161
-11,19-Jan,21,2,95
-12,19-Jan,17,10,85
-13,19-Jan,23,7,38
-14,19-Jan,15,3,7
-15,19-Jan,5,1,161
-16,19-Jan,28,6,113
-17,19-Jan,27,9,6
-18,19-Jan,19,2,145
-19,19-Jan,23,7,145
-20,19-Jan,24,3,72
-21,19-Jan,20,5,6
-22,19-Jan,18,8,67
-23,19-Jan,2,10,154
-24,19-Jan,1,6,113
-25,19-Jan,11,4,31
-26,19-Jan,23,3,149
-27,19-Jan,22,3,160
-28,19-Jan,24,3,38
-29,19-Jan,10,5,69
-30,19-Jan,30,6,20
-31,19-Jan,8,4,174
-32,19-Jan,30,3,12
-33,19-Jan,23,10,94
-34,19-Jan,23,3,108
-35,19-Jan,17,8,3
-36,19-Jan,7,7,102
-37,19-Jan,22,9,17
-38,19-Jan,1,6,126
-39,19-Jan,2,1,20
-40,19-Jan,22,7,63
-41,19-Jan,4,9,40
-42,19-Jan,27,10,130
-43,19-Jan,10,5,26
-44,19-Jan,15,6,112
-45,19-Jan,4,4,133
-46,19-Jan,12,9,71
-47,19-Jan,29,7,82
-48,19-Jan,15,9,158
-49,19-Jan,25,5,10
-50,19-Jan,21,6,80
-51,19-Jan,30,7,97
-52,19-Jan,22,7,145
-53,19-Jan,30,1,24
-54,19-Jan,6,9,129
-55,19-Jan,10,5,81
-56,19-Jan,5,10,72
-57,19-Jan,5,6,26
-58,19-Jan,10,4,109
-59,19-Jan,18,5,14
-60,19-Jan,27,5,117
-61,19-Jan,16,7,171
-62,19-Jan,7,10,159
-63,19-Jan,11,8,31
-64,19-Jan,26,4,32
-65,19-Jan,27,8,114
-66,19-Jan,29,5,178
-67,19-Jan,23,8,35
-68,19-Jan,15,8,59
-69,19-Jan,3,10,97
-70,19-Jan,2,10,61
-71,19-Jan,1,2,163
-72,19-Jan,6,5,85
-73,19-Jan,5,6,68
-74,19-Jan,2,10,56
-75,19-Jan,14,6,43
-76,19-Jan,18,6,66
-77,19-Jan,30,8,75
-78,19-Jan,26,6,54
-79,19-Jan,16,3,105
-80,19-Jan,23,10,50
-81,19-Jan,15,3,15
-82,19-Jan,21,7,74
-83,19-Jan,7,4,168
-84,19-Jan,24,1,50
-85,20-Jan,28,7,99
-86,20-Jan,6,2,53
-87,20-Jan,19,10,78
-88,20-Jan,13,10,2
-89,20-Jan,7,1,71
-90,20-Jan,26,2,171
-91,20-Jan,4,6,82
-92,20-Jan,18,4,27
-93,20-Jan,4,9,44
-94,20-Jan,9,1,82
-95,20-Jan,1,5,44
-96,20-Jan,18,5,163
-97,20-Jan,19,9,89
-98,20-Jan,26,10,96
-99,20-Jan,5,10,101
-100,20-Jan,1,6,131
-101,20-Jan,15,4,17
-102,20-Jan,5,2,27
-103,20-Jan,24,4,114
-104,20-Jan,30,4,54
-105,20-Jan,2,9,131
-106,20-Jan,11,9,10
-107,20-Jan,22,4,94
-108,20-Jan,7,5,98
-109,20-Jan,7,6,89
-110,20-Jan,12,9,38
-111,20-Jan,22,8,154
-112,20-Jan,25,10,15
-113,20-Jan,2,2,71
-114,20-Jan,19,8,128
-115,20-Jan,21,2,71
-116,20-Jan,14,7,34
-117,20-Jan,24,9,101
-118,20-Jan,26,1,91
-119,20-Jan,12,7,127
-120,20-Jan,26,2,62
-121,20-Jan,29,5,109
-122,20-Jan,17,8,37
-123,20-Jan,20,2,41
-124,20-Jan,22,3,63
-125,20-Jan,7,1,127
-126,20-Jan,4,8,126
-127,20-Jan,16,5,161
-128,20-Jan,8,8,134
-129,20-Jan,2,4,160
-130,20-Jan,5,8,175
-131,20-Jan,9,6,56
-132,20-Jan,28,5,32
-133,20-Jan,2,8,56
-134,20-Jan,20,9,56
-135,20-Jan,4,4,147
-136,20-Jan,7,3,109
-137,20-Jan,8,6,93
-138,20-Jan,30,4,75
-139,20-Jan,29,2,136
-140,20-Jan,3,6,115
-141,20-Jan,22,1,166
-142,20-Jan,28,4,143
-143,20-Jan,14,3,155
-144,20-Jan,4,6,28
-145,20-Jan,3,3,149
-146,20-Jan,29,9,155
-147,20-Jan,4,7,109
-148,20-Jan,13,5,178
-149,20-Jan,16,2,160
-150,20-Jan,6,10,108
-151,20-Jan,21,2,162
-152,20-Jan,14,2,136
-153,20-Jan,17,7,175
-154,20-Jan,14,8,157
-155,20-Jan,13,10,39
-156,20-Jan,2,7,69
-157,20-Jan,1,9,41
-158,21-Jan,27,6,171
-159,21-Jan,6,3,173
-160,21-Jan,25,4,111
-161,21-Jan,6,3,113
-162,21-Jan,26,7,26
-163,21-Jan,3,9,47
-164,21-Jan,14,1,83
-165,21-Jan,10,9,36
-166,21-Jan,9,10,176
-167,21-Jan,14,10,71
-168,21-Jan,5,6,2
-169,21-Jan,11,10,129
-170,21-Jan,30,9,105
-171,21-Jan,20,6,140
-172,21-Jan,23,2,130
-173,21-Jan,6,3,50
-174,21-Jan,2,3,57
-175,21-Jan,19,4,41
-176,21-Jan,25,9,135
-177,21-Jan,6,3,18
-178,21-Jan,2,2,89
-179,21-Jan,28,3,126
-180,21-Jan,17,3,80
-181,21-Jan,23,2,99
-182,21-Jan,10,7,30
-183,21-Jan,15,8,119
-184,21-Jan,6,6,145
-185,21-Jan,20,1,131
-186,21-Jan,2,9,148
-187,21-Jan,4,8,100
-188,21-Jan,2,3,155
-189,21-Jan,4,7,90
-190,21-Jan,24,6,121
-191,21-Jan,1,3,142
-192,21-Jan,7,10,166
-193,21-Jan,23,7,153
-194,21-Jan,15,8,1
-195,21-Jan,3,1,158
-196,21-Jan,15,6,7
-197,21-Jan,1,6,154
-198,21-Jan,18,2,97
-199,21-Jan,1,3,44
-200,21-Jan,28,10,157
-201,21-Jan,23,5,70
-202,21-Jan,18,6,8
-203,21-Jan,19,4,32
-204,21-Jan,21,10,32
-205,21-Jan,27,8,3
-206,21-Jan,2,6,10
-207,21-Jan,17,3,123
-208,21-Jan,13,3,55
-209,21-Jan,7,2,63
-210,21-Jan,17,1,86
-211,21-Jan,7,7,68
-212,21-Jan,6,6,168
-213,21-Jan,2,4,121
-214,21-Jan,30,5,82
-215,21-Jan,23,3,6
-216,21-Jan,9,4,36
-217,21-Jan,26,6,165
-218,21-Jan,25,8,155
-219,21-Jan,16,2,26
-220,21-Jan,14,2,168
-221,21-Jan,7,9,172
-222,21-Jan,24,1,56
-223,21-Jan,25,6,75
-224,21-Jan,30,5,4
-225,21-Jan,23,6,127
-226,21-Jan,20,9,178
-227,21-Jan,29,4,91
-228,21-Jan,17,10,152
-229,21-Jan,8,10,145
-230,21-Jan,24,8,91
-231,21-Jan,24,8,150
-232,21-Jan,19,6,77
-233,21-Jan,21,6,171
-234,21-Jan,7,9,45
-235,21-Jan,12,1,143
-236,21-Jan,15,4,83
-237,21-Jan,24,9,21
-238,21-Jan,3,3,111
-239,21-Jan,11,7,178
-240,21-Jan,23,2,105
-241,21-Jan,27,2,167
-242,21-Jan,19,3,70
-243,21-Jan,28,6,22
-244,21-Jan,14,4,140
-245,21-Jan,28,7,108
-246,21-Jan,2,6,19
-247,21-Jan,27,6,102
-248,21-Jan,14,8,81
-249,21-Jan,29,8,13
-250,21-Jan,23,2,29
-251,21-Jan,22,10,77
-252,21-Jan,12,5,79
-253,21-Jan,8,4,83
-254,21-Jan,27,2,149
-255,21-Jan,18,9,14
-256,21-Jan,16,7,50
-257,21-Jan,13,5,169
-258,21-Jan,19,6,115
-259,21-Jan,5,6,11
-260,21-Jan,23,7,100
-261,21-Jan,3,1,135
-262,21-Jan,26,8,38
-263,21-Jan,15,3,84
-264,21-Jan,20,7,68
-265,21-Jan,18,5,110
-266,21-Jan,14,10,32
-267,21-Jan,25,9,23
-268,21-Jan,27,9,67
-269,21-Jan,5,5,97
-270,21-Jan,6,8,0
-271,21-Jan,21,1,59
-272,21-Jan,21,9,68
-273,21-Jan,10,4,98
-274,21-Jan,1,3,169
-275,21-Jan,27,5,116
-276,21-Jan,9,7,99
-277,21-Jan,29,1,169
-278,21-Jan,16,2,167
-279,21-Jan,21,2,6
-280,21-Jan,10,9,82
-281,21-Jan,6,3,12
-282,21-Jan,28,9,70
-283,21-Jan,29,5,86
-284,21-Jan,4,3,43
-285,21-Jan,13,5,144
-286,21-Jan,6,3,131
-287,21-Jan,27,5,2
-288,21-Jan,14,6,49
-289,21-Jan,2,6,43
-290,21-Jan,18,8,120
-291,21-Jan,2,6,124
-292,21-Jan,23,8,2
-293,21-Jan,12,6,106
-294,21-Jan,3,9,49
-295,21-Jan,29,4,0
-296,21-Jan,16,9,159
-297,21-Jan,13,10,29
-298,21-Jan,12,9,8
-299,21-Jan,19,10,120
-300,21-Jan,17,8,53
-301,21-Jan,17,6,78
-302,22-Jan,12,7,108
-303,22-Jan,10,2,112
-304,22-Jan,15,2,48
-305,22-Jan,20,2,114
-306,22-Jan,13,2,26
-307,22-Jan,5,8,1
-308,22-Jan,12,9,9
-309,22-Jan,7,8,44
-310,22-Jan,29,6,81
-311,22-Jan,22,7,132
-312,22-Jan,20,9,153
-313,22-Jan,27,7,78
-314,22-Jan,15,4,156
-315,22-Jan,28,8,20
-316,22-Jan,21,10,50
-317,22-Jan,19,2,49
-318,22-Jan,12,4,172
-319,22-Jan,3,4,106
-320,22-Jan,22,1,8
-321,22-Jan,19,2,117
-322,22-Jan,21,10,118
-323,22-Jan,12,1,92
-324,22-Jan,8,2,159
-325,22-Jan,2,8,71
-326,22-Jan,27,10,176
-327,22-Jan,30,6,172
-328,22-Jan,15,2,77
-329,22-Jan,20,1,168
-330,22-Jan,7,3,130
-331,22-Jan,14,6,91
-332,22-Jan,19,8,161
-333,22-Jan,24,6,140
-334,22-Jan,30,1,140
-335,22-Jan,24,6,66
-336,22-Jan,25,10,3
-337,22-Jan,26,4,170
-338,22-Jan,9,10,129
-339,22-Jan,19,9,36
-340,22-Jan,16,10,89
-341,22-Jan,21,7,37
-342,22-Jan,17,10,109
-343,22-Jan,18,5,164
-344,22-Jan,1,1,48
-345,22-Jan,30,10,57
-346,22-Jan,1,8,65
-347,22-Jan,30,9,114
-348,22-Jan,13,9,3
-349,22-Jan,10,1,151
-350,22-Jan,21,8,123
-351,22-Jan,9,6,26
-352,22-Jan,26,2,139
-353,22-Jan,29,1,115
-354,22-Jan,1,9,124
-355,22-Jan,9,4,88
-356,22-Jan,14,2,162
-357,22-Jan,12,3,127
-358,22-Jan,25,2,89
-359,22-Jan,29,3,55
-360,22-Jan,1,5,73
-361,22-Jan,23,4,60
-362,22-Jan,28,6,26
-363,22-Jan,2,5,13
-364,22-Jan,13,2,114
-365,22-Jan,4,2,109
-366,22-Jan,24,3,154
-367,22-Jan,16,10,57
-368,22-Jan,9,4,92
-369,22-Jan,1,7,13
-370,22-Jan,22,7,168
-371,22-Jan,26,4,48
-372,22-Jan,22,8,136
-373,22-Jan,23,5,92
-374,22-Jan,9,2,173
-375,22-Jan,6,3,125
-376,22-Jan,28,8,37
-377,22-Jan,8,2,4
-378,22-Jan,22,6,1
-379,22-Jan,23,1,178
-380,22-Jan,23,10,97
-381,22-Jan,9,8,173
-382,22-Jan,19,9,20
-383,22-Jan,8,4,122
-384,22-Jan,15,4,163
-385,22-Jan,26,5,48
-386,22-Jan,17,9,152
-387,22-Jan,4,10,85
-388,22-Jan,28,10,75
-389,22-Jan,4,2,2
-390,22-Jan,15,10,67
-391,22-Jan,4,7,59
-392,22-Jan,27,8,108
-393,22-Jan,26,6,59
-394,22-Jan,17,5,138
-395,22-Jan,17,5,78
-396,22-Jan,21,3,33
-397,22-Jan,24,2,0
-398,22-Jan,25,1,157
-399,22-Jan,29,10,25
-400,22-Jan,12,9,145
-401,22-Jan,21,9,36
-402,22-Jan,13,5,3
-403,22-Jan,11,7,72
-404,22-Jan,8,4,71
-405,22-Jan,19,4,169
-406,22-Jan,5,8,72
-407,22-Jan,30,10,75
-408,22-Jan,29,7,109
-409,22-Jan,23,7,6
-410,22-Jan,9,5,108
-411,22-Jan,30,6,0
-412,22-Jan,11,2,119
-413,22-Jan,25,5,60
-414,22-Jan,14,8,97
-415,22-Jan,29,2,171
-416,22-Jan,7,8,39
-417,22-Jan,11,7,79
-418,22-Jan,7,4,112
-419,22-Jan,17,7,87
-420,22-Jan,29,8,36
-421,22-Jan,9,3,168
-422,22-Jan,20,8,18
-423,22-Jan,13,10,83
-424,22-Jan,4,8,4
-425,22-Jan,6,8,25
-426,22-Jan,15,7,112
-427,22-Jan,8,9,123
-428,22-Jan,23,8,112
-429,22-Jan,1,2,94
-430,22-Jan,12,2,144
-431,22-Jan,10,2,93
-432,22-Jan,22,7,92
-433,22-Jan,5,7,40
-434,22-Jan,21,3,50
-435,22-Jan,9,10,134
-436,22-Jan,10,8,120
-437,22-Jan,15,5,120
-438,22-Jan,19,3,168
-439,22-Jan,8,4,50
-440,22-Jan,23,3,54
-441,22-Jan,20,6,128
-442,22-Jan,19,7,125
-443,22-Jan,20,6,28
-444,22-Jan,13,2,168
-445,22-Jan,14,8,172
-446,22-Jan,13,4,61
-447,22-Jan,15,6,40
-448,22-Jan,2,8,28
-449,22-Jan,5,7,143
-450,22-Jan,15,1,173
-451,22-Jan,24,7,159
-452,22-Jan,3,1,51
-453,22-Jan,22,8,115
-454,22-Jan,22,6,1
-455,22-Jan,2,4,12
-456,22-Jan,20,3,14
-457,22-Jan,23,10,12
-458,22-Jan,24,3,98
-459,22-Jan,11,3,13
-460,22-Jan,3,2,14
-461,22-Jan,7,4,14
-462,22-Jan,3,5,122
-463,22-Jan,14,2,21
-464,22-Jan,13,7,109
-465,22-Jan,12,8,34
-466,22-Jan,29,1,17
-467,22-Jan,26,10,23
-468,22-Jan,4,6,104
-469,22-Jan,2,5,63
-470,22-Jan,5,10,110
-471,22-Jan,29,1,81
-472,22-Jan,17,10,11
-473,22-Jan,18,7,141
-474,22-Jan,17,8,158
-475,22-Jan,19,9,133
-476,22-Jan,7,5,9
-477,22-Jan,3,1,152
-478,22-Jan,8,3,140
-479,22-Jan,16,8,66
-480,22-Jan,23,7,98
-481,22-Jan,5,4,70
-482,22-Jan,27,2,66
-483,22-Jan,17,3,81
-484,22-Jan,5,5,178
-485,22-Jan,23,5,163
-486,23-Jan,11,4,160
-487,24-Jan,23,1,74
-488,25-Jan,30,6,21
-489,26-Jan,10,1,129
-490,27-Jan,8,9,51
-491,28-Jan,19,10,21
-492,29-Jan,15,4,25
-493,30-Jan,24,4,40
-494,31-Jan,7,2,31
-495,1-Feb,21,8,108
-496,2-Feb,19,5,151
-497,3-Feb,23,2,174
-498,4-Feb,18,8,174
-499,5-Feb,26,7,121
-500,6-Feb,27,2,119
-501,7-Feb,17,4,55
-502,8-Feb,29,10,146
-503,9-Feb,26,6,79
-504,10-Feb,23,5,91
-505,11-Feb,28,7,172
-506,12-Feb,7,9,3
-507,13-Feb,30,9,2
-508,14-Feb,13,1,137
-509,15-Feb,17,1,28
-510,16-Feb,11,6,157
-511,17-Feb,14,9,41
-512,18-Feb,12,5,78
-513,19-Feb,13,2,10
-514,20-Feb,29,8,67
-515,21-Feb,11,1,149
-516,22-Feb,23,1,57
-517,23-Feb,14,4,148
-518,24-Feb,1,5,18
-519,25-Feb,8,10,96
-520,26-Feb,27,7,71
-521,27-Feb,24,7,65
-522,28-Feb,13,6,144
-523,1-Mar,5,5,55
-524,2-Mar,10,6,80
-525,3-Mar,22,6,58
-526,4-Mar,1,3,104
-527,5-Mar,26,1,47
-528,6-Mar,18,2,53
-529,7-Mar,13,5,152
-530,8-Mar,1,9,131
-531,9-Mar,13,2,17
-532,10-Mar,11,3,78
-533,11-Mar,30,10,28
-534,12-Mar,7,3,54
-535,13-Mar,4,7,99
-536,14-Mar,12,7,43
-537,15-Mar,12,7,78
-538,16-Mar,4,8,56
-539,17-Mar,28,2,52
-540,18-Mar,1,3,60
-541,19-Mar,29,6,50
-542,20-Mar,12,1,9
-543,21-Mar,8,2,69
-544,22-Mar,14,9,28
-545,23-Mar,22,1,142
-546,24-Mar,1,6,108
-547,25-Mar,11,1,4
-548,26-Mar,27,8,121
-549,27-Mar,26,4,68
-550,28-Mar,23,10,162
-551,29-Mar,22,7,165
-552,30-Mar,3,5,114
-553,31-Mar,14,6,28
-554,1-Apr,17,2,44
-555,2-Apr,8,10,6
-556,3-Apr,6,10,75
-557,4-Apr,22,5,110
-558,5-Apr,4,10,19
-559,6-Apr,27,10,6
-560,7-Apr,16,9,129
-561,8-Apr,23,8,17
-562,9-Apr,6,5,158
-563,10-Apr,4,5,47
-564,11-Apr,13,1,142
-565,12-Apr,9,5,22
-566,13-Apr,16,1,8
-567,14-Apr,12,5,50
-568,15-Apr,2,9,84
-569,16-Apr,15,7,144
-570,17-Apr,5,3,0
-571,18-Apr,27,10,153
-572,19-Apr,21,10,104
-573,20-Apr,8,2,47
-574,21-Apr,11,2,140
-575,22-Apr,21,7,115
-576,23-Apr,30,6,48
-577,24-Apr,15,10,1
-578,25-Apr,6,3,162
-579,26-Apr,25,1,107
-580,27-Apr,9,5,91
-581,28-Apr,25,2,0
-582,29-Apr,7,9,150
-583,30-Apr,9,6,40
-584,1-May,23,9,75
-585,2-May,12,7,114
-586,3-May,26,1,90
-587,4-May,22,3,145
-588,5-May,13,9,55
-589,6-May,10,1,136
-590,7-May,16,5,83
-591,8-May,25,5,152
-592,9-May,12,6,115
-593,10-May,25,4,161
-594,11-May,22,7,1
-595,12-May,27,5,13
+name,seat,date,ticketkey,ticketid
+Moreen Caren,A1,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,A2,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,A3,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,A4,19-Jan,19-JanMoreen Caren,0
+Suz Sophie,A5,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,A9,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,A12,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,A13,19-Jan,19-JanSuz Sophie,1
+Crew Susanna,A14,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,A15,19-Jan,19-JanCrew Susanna,2
+Pece Ravi,A18,19-Jan,19-JanPece Ravi,3
+Pece Ravi,A19,19-Jan,19-JanPece Ravi,3
+Pece Ravi,A20,19-Jan,19-JanPece Ravi,3
+Moreen Caren,B1,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,B2,19-Jan,19-JanMoreen Caren,0
+Suz Sophie,B3,19-Jan,19-JanSuz Sophie,1
+Crew Susanna,B4,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,B5,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,B6,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,B7,19-Jan,19-JanCrew Susanna,2
+Pece Ravi,B15,19-Jan,19-JanPece Ravi,3
+Pece Ravi,B16,19-Jan,19-JanPece Ravi,3
+Pece Ravi,B17,19-Jan,19-JanPece Ravi,3
+Ferdinand Dwain,B18,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,B19,19-Jan,19-JanFerdinand Dwain,4
+Kade Fae,B20,19-Jan,19-JanKade Fae,5
+Moreen Caren,C1,19-Jan,19-JanMoreen Caren,0
+Suz Sophie,C2,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,C3,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,C5,19-Jan,19-JanSuz Sophie,1
+Crew Susanna,C6,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,C7,19-Jan,19-JanCrew Susanna,2
+Pece Ravi,C9,19-Jan,19-JanPece Ravi,3
+Pece Ravi,C10,19-Jan,19-JanPece Ravi,3
+Ferdinand Dwain,C11,19-Jan,19-JanFerdinand Dwain,4
+Kade Fae,C12,19-Jan,19-JanKade Fae,5
+Kade Fae,C13,19-Jan,19-JanKade Fae,5
+Ren Aron,C14,19-Jan,19-JanRen Aron,6
+Ren Aron,C15,19-Jan,19-JanRen Aron,6
+Ren Aron,C16,19-Jan,19-JanRen Aron,6
+Ren Aron,C17,19-Jan,19-JanRen Aron,6
+Jeane Rosalie,C18,19-Jan,19-JanJeane Rosalie,7
+Jeane Rosalie,C19,19-Jan,19-JanJeane Rosalie,7
+Jeane Rosalie,C20,19-Jan,19-JanJeane Rosalie,7
+Moreen Caren,D1,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,D2,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,D3,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,D4,19-Jan,19-JanMoreen Caren,0
+Crew Susanna,D5,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,D6,19-Jan,19-JanCrew Susanna,2
+Ferdinand Dwain,D7,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,D8,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,D9,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,D10,19-Jan,19-JanFerdinand Dwain,4
+Kade Fae,D14,19-Jan,19-JanKade Fae,5
+Kade Fae,D15,19-Jan,19-JanKade Fae,5
+Kade Fae,D16,19-Jan,19-JanKade Fae,5
+Ren Aron,D17,19-Jan,19-JanRen Aron,6
+Ren Aron,D18,19-Jan,19-JanRen Aron,6
+Jeane Rosalie,D19,19-Jan,19-JanJeane Rosalie,7
+Jeane Rosalie,D20,19-Jan,19-JanJeane Rosalie,7
+Moreen Caren,E1,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,E2,19-Jan,19-JanMoreen Caren,0
+Suz Sophie,E3,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,E4,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,E5,19-Jan,19-JanSuz Sophie,1
+Crew Susanna,E6,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,E7,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,E8,19-Jan,19-JanCrew Susanna,2
+Pece Ravi,E14,19-Jan,19-JanPece Ravi,3
+Ferdinand Dwain,E15,19-Jan,19-JanFerdinand Dwain,4
+Ren Aron,E16,19-Jan,19-JanRen Aron,6
+Lorraine Alyse,E17,19-Jan,19-JanLorraine Alyse,8
+Lorraine Alyse,E18,19-Jan,19-JanLorraine Alyse,8
+Lorraine Alyse,E19,19-Jan,19-JanLorraine Alyse,8
+Lorraine Alyse,E20,19-Jan,19-JanLorraine Alyse,8
+Moreen Caren,F1,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,F2,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,F3,19-Jan,19-JanMoreen Caren,0
+Suz Sophie,F4,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,F5,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,F6,19-Jan,19-JanSuz Sophie,1
+Crew Susanna,F7,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,F8,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,F9,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,F10,19-Jan,19-JanCrew Susanna,2
+Pece Ravi,F11,19-Jan,19-JanPece Ravi,3
+Pece Ravi,F12,19-Jan,19-JanPece Ravi,3
+Pece Ravi,F13,19-Jan,19-JanPece Ravi,3
+Kade Fae,F14,19-Jan,19-JanKade Fae,5
+Kade Fae,F15,19-Jan,19-JanKade Fae,5
+Kade Fae,F16,19-Jan,19-JanKade Fae,5
+Ren Aron,F17,19-Jan,19-JanRen Aron,6
+Ren Aron,F18,19-Jan,19-JanRen Aron,6
+Ren Aron,F19,19-Jan,19-JanRen Aron,6
+Jeane Rosalie,F20,19-Jan,19-JanJeane Rosalie,7
+Moreen Caren,G1,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,G2,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,G3,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,G4,19-Jan,19-JanMoreen Caren,0
+Crew Susanna,G5,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,G6,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,G7,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,G8,19-Jan,19-JanCrew Susanna,2
+Pece Ravi,G12,19-Jan,19-JanPece Ravi,3
+Pece Ravi,G13,19-Jan,19-JanPece Ravi,3
+Pece Ravi,G14,19-Jan,19-JanPece Ravi,3
+Pece Ravi,G15,19-Jan,19-JanPece Ravi,3
+Ferdinand Dwain,G16,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,G17,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,G18,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,G19,19-Jan,19-JanFerdinand Dwain,4
+Kade Fae,G20,19-Jan,19-JanKade Fae,5
+Moreen Caren,H1,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,H2,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,H3,19-Jan,19-JanMoreen Caren,0
+Moreen Caren,H4,19-Jan,19-JanMoreen Caren,0
+Suz Sophie,H5,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,H6,19-Jan,19-JanSuz Sophie,1
+Suz Sophie,H7,19-Jan,19-JanSuz Sophie,1
+Crew Susanna,H8,19-Jan,19-JanCrew Susanna,2
+Crew Susanna,H9,19-Jan,19-JanCrew Susanna,2
+Ferdinand Dwain,H14,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,H15,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,H16,19-Jan,19-JanFerdinand Dwain,4
+Ferdinand Dwain,H17,19-Jan,19-JanFerdinand Dwain,4
+Kade Fae,H18,19-Jan,19-JanKade Fae,5
+Kade Fae,H19,19-Jan,19-JanKade Fae,5
+Lorraine Alyse,H20,19-Jan,19-JanLorraine Alyse,8
+Moreen Caren,A1,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,A2,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,A3,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,A5,21-Jan,21-JanMoreen Caren,9
+Ty Jenessa,A6,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,A7,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,A8,21-Jan,21-JanTy Jenessa,10
+Debbi Carley,A9,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,A10,21-Jan,21-JanDebbi Carley,11
+Marcy Ruthie,A11,21-Jan,21-JanMarcy Ruthie,12
+Praise Karina,A12,21-Jan,21-JanPraise Karina,13
+Lorraine Alyse,A13,21-Jan,21-JanLorraine Alyse,14
+Lorraine Alyse,A14,21-Jan,21-JanLorraine Alyse,14
+Lorraine Alyse,A15,21-Jan,21-JanLorraine Alyse,14
+Lorraine Alyse,A16,21-Jan,21-JanLorraine Alyse,14
+Rebekah Sharlene,A17,21-Jan,21-JanRebekah Sharlene,15
+Marva Danielle,A18,21-Jan,21-JanMarva Danielle,16
+Marva Danielle,A19,21-Jan,21-JanMarva Danielle,16
+Marva Danielle,A20,21-Jan,21-JanMarva Danielle,16
+Moreen Caren,B1,21-Jan,21-JanMoreen Caren,9
+Baxter Georgene,B4,21-Jan,21-JanBaxter Georgene,17
+Ty Jenessa,B5,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,B6,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,B7,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,B8,21-Jan,21-JanTy Jenessa,10
+Debbi Carley,B9,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,B10,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,B11,21-Jan,21-JanDebbi Carley,11
+Marcy Ruthie,B12,21-Jan,21-JanMarcy Ruthie,12
+Marcy Ruthie,B13,21-Jan,21-JanMarcy Ruthie,12
+Marcy Ruthie,B14,21-Jan,21-JanMarcy Ruthie,12
+Praise Karina,B15,21-Jan,21-JanPraise Karina,13
+Praise Karina,B16,21-Jan,21-JanPraise Karina,13
+Praise Karina,B17,21-Jan,21-JanPraise Karina,13
+Praise Karina,B18,21-Jan,21-JanPraise Karina,13
+Lorraine Alyse,B19,21-Jan,21-JanLorraine Alyse,14
+Lorraine Alyse,B20,21-Jan,21-JanLorraine Alyse,14
+Moreen Caren,C1,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,C2,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,C3,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,C4,21-Jan,21-JanMoreen Caren,9
+Baxter Georgene,C5,21-Jan,21-JanBaxter Georgene,17
+Baxter Georgene,C6,21-Jan,21-JanBaxter Georgene,17
+Baxter Georgene,C7,21-Jan,21-JanBaxter Georgene,17
+Baxter Georgene,C8,21-Jan,21-JanBaxter Georgene,17
+Ty Jenessa,C9,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,C10,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,C11,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,C12,21-Jan,21-JanTy Jenessa,10
+Debbi Carley,C14,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,C15,21-Jan,21-JanDebbi Carley,11
+Marcy Ruthie,C16,21-Jan,21-JanMarcy Ruthie,12
+Marcy Ruthie,C17,21-Jan,21-JanMarcy Ruthie,12
+Marcy Ruthie,C18,21-Jan,21-JanMarcy Ruthie,12
+Marcy Ruthie,C19,21-Jan,21-JanMarcy Ruthie,12
+Praise Karina,C20,21-Jan,21-JanPraise Karina,13
+Moreen Caren,D1,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,D2,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,D3,21-Jan,21-JanMoreen Caren,9
+Debbi Carley,D5,21-Jan,21-JanDebbi Carley,11
+Praise Karina,D6,21-Jan,21-JanPraise Karina,13
+Praise Karina,D7,21-Jan,21-JanPraise Karina,13
+Praise Karina,D8,21-Jan,21-JanPraise Karina,13
+Rebekah Sharlene,D11,21-Jan,21-JanRebekah Sharlene,15
+Rebekah Sharlene,D12,21-Jan,21-JanRebekah Sharlene,15
+Gertrude Jezza,D13,21-Jan,21-JanGertrude Jezza,18
+Gertrude Jezza,D14,21-Jan,21-JanGertrude Jezza,18
+Gertrude Jezza,D15,21-Jan,21-JanGertrude Jezza,18
+Gertrude Jezza,D16,21-Jan,21-JanGertrude Jezza,18
+Marva Danielle,D17,21-Jan,21-JanMarva Danielle,16
+Marva Danielle,D18,21-Jan,21-JanMarva Danielle,16
+Marva Danielle,D19,21-Jan,21-JanMarva Danielle,16
+Roseanne Winfield,D20,21-Jan,21-JanRoseanne Winfield,19
+Moreen Caren,E1,21-Jan,21-JanMoreen Caren,9
+Debbi Carley,E4,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,E5,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,E6,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,E9,21-Jan,21-JanDebbi Carley,11
+Marcy Ruthie,E10,21-Jan,21-JanMarcy Ruthie,12
+Marcy Ruthie,E11,21-Jan,21-JanMarcy Ruthie,12
+Marcy Ruthie,E12,21-Jan,21-JanMarcy Ruthie,12
+Praise Karina,E13,21-Jan,21-JanPraise Karina,13
+Praise Karina,E14,21-Jan,21-JanPraise Karina,13
+Lorraine Alyse,E15,21-Jan,21-JanLorraine Alyse,14
+Lorraine Alyse,E16,21-Jan,21-JanLorraine Alyse,14
+Rebekah Sharlene,E17,21-Jan,21-JanRebekah Sharlene,15
+Rebekah Sharlene,E18,21-Jan,21-JanRebekah Sharlene,15
+Gertrude Jezza,E19,21-Jan,21-JanGertrude Jezza,18
+Gertrude Jezza,E20,21-Jan,21-JanGertrude Jezza,18
+Moreen Caren,F1,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,F2,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,F3,21-Jan,21-JanMoreen Caren,9
+Baxter Georgene,F4,21-Jan,21-JanBaxter Georgene,17
+Baxter Georgene,F5,21-Jan,21-JanBaxter Georgene,17
+Baxter Georgene,F6,21-Jan,21-JanBaxter Georgene,17
+Baxter Georgene,F7,21-Jan,21-JanBaxter Georgene,17
+Ty Jenessa,F8,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,F9,21-Jan,21-JanTy Jenessa,10
+Debbi Carley,F14,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,F15,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,F16,21-Jan,21-JanDebbi Carley,11
+Marcy Ruthie,F17,21-Jan,21-JanMarcy Ruthie,12
+Marcy Ruthie,F18,21-Jan,21-JanMarcy Ruthie,12
+Lorraine Alyse,F19,21-Jan,21-JanLorraine Alyse,14
+Rebekah Sharlene,F20,21-Jan,21-JanRebekah Sharlene,15
+Moreen Caren,G1,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,G2,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,G3,21-Jan,21-JanMoreen Caren,9
+Baxter Georgene,G4,21-Jan,21-JanBaxter Georgene,17
+Ty Jenessa,G5,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,G6,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,G7,21-Jan,21-JanTy Jenessa,10
+Debbi Carley,G8,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,G9,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,G10,21-Jan,21-JanDebbi Carley,11
+Marcy Ruthie,G11,21-Jan,21-JanMarcy Ruthie,12
+Marcy Ruthie,G12,21-Jan,21-JanMarcy Ruthie,12
+Praise Karina,G13,21-Jan,21-JanPraise Karina,13
+Praise Karina,G14,21-Jan,21-JanPraise Karina,13
+Praise Karina,G15,21-Jan,21-JanPraise Karina,13
+Praise Karina,G16,21-Jan,21-JanPraise Karina,13
+Lorraine Alyse,G17,21-Jan,21-JanLorraine Alyse,14
+Gertrude Jezza,G18,21-Jan,21-JanGertrude Jezza,18
+Marva Danielle,G19,21-Jan,21-JanMarva Danielle,16
+Roseanne Winfield,G20,21-Jan,21-JanRoseanne Winfield,19
+Moreen Caren,H1,21-Jan,21-JanMoreen Caren,9
+Moreen Caren,H2,21-Jan,21-JanMoreen Caren,9
+Baxter Georgene,H3,21-Jan,21-JanBaxter Georgene,17
+Ty Jenessa,H4,21-Jan,21-JanTy Jenessa,10
+Ty Jenessa,H5,21-Jan,21-JanTy Jenessa,10
+Debbi Carley,H10,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,H11,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,H12,21-Jan,21-JanDebbi Carley,11
+Debbi Carley,H13,21-Jan,21-JanDebbi Carley,11
+Marcy Ruthie,H14,21-Jan,21-JanMarcy Ruthie,12
+Lorraine Alyse,H15,21-Jan,21-JanLorraine Alyse,14
+Lorraine Alyse,H16,21-Jan,21-JanLorraine Alyse,14
+Lorraine Alyse,H17,21-Jan,21-JanLorraine Alyse,14
+Gertrude Jezza,H18,21-Jan,21-JanGertrude Jezza,18
+Gertrude Jezza,H19,21-Jan,21-JanGertrude Jezza,18
+Gertrude Jezza,H20,21-Jan,21-JanGertrude Jezza,18
+Lorraine Alyse,A1,22-Jan,22-JanLorraine Alyse,20
+Lorraine Alyse,A2,22-Jan,22-JanLorraine Alyse,20
+Suz Sophie,A3,22-Jan,22-JanSuz Sophie,21
+Rodger Dorine,A4,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,A5,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,A6,22-Jan,22-JanRodger Dorine,22
+Carey Dakota,A12,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,A13,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,A14,22-Jan,22-JanCarey Dakota,23
+Ren Aron,A15,22-Jan,22-JanRen Aron,24
+Dennis Roseanne,A16,22-Jan,22-JanDennis Roseanne,25
+Dennis Roseanne,A17,22-Jan,22-JanDennis Roseanne,25
+Dennis Roseanne,A18,22-Jan,22-JanDennis Roseanne,25
+Dennis Roseanne,A19,22-Jan,22-JanDennis Roseanne,25
+Charis June,A20,22-Jan,22-JanCharis June,26
+Lorraine Alyse,B1,22-Jan,22-JanLorraine Alyse,20
+Lorraine Alyse,B2,22-Jan,22-JanLorraine Alyse,20
+Lorraine Alyse,B3,22-Jan,22-JanLorraine Alyse,20
+Suz Sophie,B4,22-Jan,22-JanSuz Sophie,21
+Suz Sophie,B7,22-Jan,22-JanSuz Sophie,21
+Suz Sophie,B10,22-Jan,22-JanSuz Sophie,21
+Rodger Dorine,B11,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,B12,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,B13,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,B14,22-Jan,22-JanRodger Dorine,22
+Karter Eppie,B18,22-Jan,22-JanKarter Eppie,27
+Karter Eppie,B19,22-Jan,22-JanKarter Eppie,27
+Karter Eppie,B20,22-Jan,22-JanKarter Eppie,27
+Lorraine Alyse,C1,22-Jan,22-JanLorraine Alyse,20
+Lorraine Alyse,C2,22-Jan,22-JanLorraine Alyse,20
+Rodger Dorine,C3,22-Jan,22-JanRodger Dorine,22
+Karter Eppie,C8,22-Jan,22-JanKarter Eppie,27
+Karter Eppie,C9,22-Jan,22-JanKarter Eppie,27
+Carey Dakota,C10,22-Jan,22-JanCarey Dakota,23
+Ren Aron,C11,22-Jan,22-JanRen Aron,24
+Dennis Roseanne,C12,22-Jan,22-JanDennis Roseanne,25
+Dennis Roseanne,C13,22-Jan,22-JanDennis Roseanne,25
+Ibrahim Gerarda,C14,22-Jan,22-JanIbrahim Gerarda,28
+Ibrahim Gerarda,C15,22-Jan,22-JanIbrahim Gerarda,28
+Ferdinand Dwain,C16,22-Jan,22-JanFerdinand Dwain,29
+Roseanne Winfield,C17,22-Jan,22-JanRoseanne Winfield,30
+Ogden Terrance,C18,22-Jan,22-JanOgden Terrance,31
+Alysa Sara,C19,22-Jan,22-JanAlysa Sara,32
+Alysa Sara,C20,22-Jan,22-JanAlysa Sara,32
+Lorraine Alyse,D1,22-Jan,22-JanLorraine Alyse,20
+Suz Sophie,D2,22-Jan,22-JanSuz Sophie,21
+Rodger Dorine,D3,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,D4,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,D5,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,D6,22-Jan,22-JanRodger Dorine,22
+Karter Eppie,D11,22-Jan,22-JanKarter Eppie,27
+Carey Dakota,D12,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,D13,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,D14,22-Jan,22-JanCarey Dakota,23
+Ren Aron,D15,22-Jan,22-JanRen Aron,24
+Ren Aron,D16,22-Jan,22-JanRen Aron,24
+Ren Aron,D17,22-Jan,22-JanRen Aron,24
+Ren Aron,D18,22-Jan,22-JanRen Aron,24
+Dennis Roseanne,D19,22-Jan,22-JanDennis Roseanne,25
+Dennis Roseanne,D20,22-Jan,22-JanDennis Roseanne,25
+Lorraine Alyse,E1,22-Jan,22-JanLorraine Alyse,20
+Rodger Dorine,E2,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,E3,22-Jan,22-JanRodger Dorine,22
+Carey Dakota,E6,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,E9,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,E10,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,E11,22-Jan,22-JanCarey Dakota,23
+Ren Aron,E12,22-Jan,22-JanRen Aron,24
+Ren Aron,E13,22-Jan,22-JanRen Aron,24
+Dennis Roseanne,E14,22-Jan,22-JanDennis Roseanne,25
+Dennis Roseanne,E15,22-Jan,22-JanDennis Roseanne,25
+Dennis Roseanne,E16,22-Jan,22-JanDennis Roseanne,25
+Dennis Roseanne,E17,22-Jan,22-JanDennis Roseanne,25
+Charis June,E18,22-Jan,22-JanCharis June,26
+Ibrahim Gerarda,E19,22-Jan,22-JanIbrahim Gerarda,28
+Ibrahim Gerarda,E20,22-Jan,22-JanIbrahim Gerarda,28
+Lorraine Alyse,F1,22-Jan,22-JanLorraine Alyse,20
+Suz Sophie,F2,22-Jan,22-JanSuz Sophie,21
+Suz Sophie,F3,22-Jan,22-JanSuz Sophie,21
+Suz Sophie,F4,22-Jan,22-JanSuz Sophie,21
+Suz Sophie,F5,22-Jan,22-JanSuz Sophie,21
+Rodger Dorine,F6,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,F7,22-Jan,22-JanRodger Dorine,22
+Karter Eppie,F10,22-Jan,22-JanKarter Eppie,27
+Karter Eppie,F11,22-Jan,22-JanKarter Eppie,27
+Carey Dakota,F12,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,F13,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,F14,22-Jan,22-JanCarey Dakota,23
+Ren Aron,F15,22-Jan,22-JanRen Aron,24
+Ren Aron,F16,22-Jan,22-JanRen Aron,24
+Dennis Roseanne,F17,22-Jan,22-JanDennis Roseanne,25
+Dennis Roseanne,F18,22-Jan,22-JanDennis Roseanne,25
+Ibrahim Gerarda,F19,22-Jan,22-JanIbrahim Gerarda,28
+Ibrahim Gerarda,F20,22-Jan,22-JanIbrahim Gerarda,28
+Rodger Dorine,G1,22-Jan,22-JanRodger Dorine,22
+Carey Dakota,G6,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,G7,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,G8,22-Jan,22-JanCarey Dakota,23
+Carey Dakota,G9,22-Jan,22-JanCarey Dakota,23
+Ibrahim Gerarda,G10,22-Jan,22-JanIbrahim Gerarda,28
+Humphrey Tamela,G11,22-Jan,22-JanHumphrey Tamela,33
+Humphrey Tamela,G12,22-Jan,22-JanHumphrey Tamela,33
+Humphrey Tamela,G13,22-Jan,22-JanHumphrey Tamela,33
+Roseanne Winfield,G14,22-Jan,22-JanRoseanne Winfield,30
+Roseanne Winfield,G15,22-Jan,22-JanRoseanne Winfield,30
+Ogden Terrance,G16,22-Jan,22-JanOgden Terrance,31
+Ogden Terrance,G17,22-Jan,22-JanOgden Terrance,31
+Ogden Terrance,G18,22-Jan,22-JanOgden Terrance,31
+Alysa Sara,G19,22-Jan,22-JanAlysa Sara,32
+Alysa Sara,G20,22-Jan,22-JanAlysa Sara,32
+Lorraine Alyse,H1,22-Jan,22-JanLorraine Alyse,20
+Lorraine Alyse,H2,22-Jan,22-JanLorraine Alyse,20
+Lorraine Alyse,H3,22-Jan,22-JanLorraine Alyse,20
+Suz Sophie,H4,22-Jan,22-JanSuz Sophie,21
+Suz Sophie,H5,22-Jan,22-JanSuz Sophie,21
+Suz Sophie,H6,22-Jan,22-JanSuz Sophie,21
+Rodger Dorine,H7,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,H9,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,H10,22-Jan,22-JanRodger Dorine,22
+Rodger Dorine,H11,22-Jan,22-JanRodger Dorine,22
+Karter Eppie,H16,22-Jan,22-JanKarter Eppie,27
+Karter Eppie,H17,22-Jan,22-JanKarter Eppie,27
+Karter Eppie,H18,22-Jan,22-JanKarter Eppie,27
+Karter Eppie,H19,22-Jan,22-JanKarter Eppie,27
+Ren Aron,H20,22-Jan,22-JanRen Aron,24
+Connie Nadia,A1,23-Jan,23-JanConnie Nadia,34
+Connie Nadia,A2,23-Jan,23-JanConnie Nadia,34
+Gertrude Jezza,A3,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,A4,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,A5,23-Jan,23-JanGertrude Jezza,35
+Dennis Roseanne,A7,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,A8,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,A9,23-Jan,23-JanDennis Roseanne,36
+Marva Danielle,A13,23-Jan,23-JanMarva Danielle,37
+Marva Danielle,A14,23-Jan,23-JanMarva Danielle,37
+Marva Danielle,A15,23-Jan,23-JanMarva Danielle,37
+Marva Danielle,A16,23-Jan,23-JanMarva Danielle,37
+Praise Karina,A17,23-Jan,23-JanPraise Karina,38
+Praise Karina,A18,23-Jan,23-JanPraise Karina,38
+Debbi Carley,A19,23-Jan,23-JanDebbi Carley,39
+Debbi Carley,A20,23-Jan,23-JanDebbi Carley,39
+Connie Nadia,B1,23-Jan,23-JanConnie Nadia,34
+Dennis Roseanne,B2,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,B3,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,B4,23-Jan,23-JanDennis Roseanne,36
+Roseanne Winfield,B9,23-Jan,23-JanRoseanne Winfield,40
+Roseanne Winfield,B10,23-Jan,23-JanRoseanne Winfield,40
+Connell Sela,B11,23-Jan,23-JanConnell Sela,41
+Connell Sela,B12,23-Jan,23-JanConnell Sela,41
+Marva Danielle,B13,23-Jan,23-JanMarva Danielle,37
+Praise Karina,B14,23-Jan,23-JanPraise Karina,38
+Praise Karina,B15,23-Jan,23-JanPraise Karina,38
+Debbi Carley,B16,23-Jan,23-JanDebbi Carley,39
+Debbi Carley,B17,23-Jan,23-JanDebbi Carley,39
+Debbi Carley,B18,23-Jan,23-JanDebbi Carley,39
+Humphrey Tamela,B19,23-Jan,23-JanHumphrey Tamela,42
+Humphrey Tamela,B20,23-Jan,23-JanHumphrey Tamela,42
+Connie Nadia,C1,23-Jan,23-JanConnie Nadia,34
+Dennis Roseanne,C2,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,C3,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,C4,23-Jan,23-JanDennis Roseanne,36
+Roseanne Winfield,C8,23-Jan,23-JanRoseanne Winfield,40
+Roseanne Winfield,C11,23-Jan,23-JanRoseanne Winfield,40
+Connell Sela,C12,23-Jan,23-JanConnell Sela,41
+Connell Sela,C13,23-Jan,23-JanConnell Sela,41
+Marva Danielle,C14,23-Jan,23-JanMarva Danielle,37
+Marva Danielle,C15,23-Jan,23-JanMarva Danielle,37
+Marva Danielle,C16,23-Jan,23-JanMarva Danielle,37
+Marva Danielle,C17,23-Jan,23-JanMarva Danielle,37
+Praise Karina,C18,23-Jan,23-JanPraise Karina,38
+Praise Karina,C19,23-Jan,23-JanPraise Karina,38
+Marcy Ruthie,C20,23-Jan,23-JanMarcy Ruthie,43
+Connie Nadia,D1,23-Jan,23-JanConnie Nadia,34
+Gertrude Jezza,D2,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,D3,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,D4,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,D5,23-Jan,23-JanGertrude Jezza,35
+Roseanne Winfield,D10,23-Jan,23-JanRoseanne Winfield,40
+Roseanne Winfield,D11,23-Jan,23-JanRoseanne Winfield,40
+Connell Sela,D12,23-Jan,23-JanConnell Sela,41
+Connell Sela,D13,23-Jan,23-JanConnell Sela,41
+Connell Sela,D14,23-Jan,23-JanConnell Sela,41
+Connell Sela,D15,23-Jan,23-JanConnell Sela,41
+Marva Danielle,D16,23-Jan,23-JanMarva Danielle,37
+Praise Karina,D17,23-Jan,23-JanPraise Karina,38
+Praise Karina,D18,23-Jan,23-JanPraise Karina,38
+Praise Karina,D19,23-Jan,23-JanPraise Karina,38
+Praise Karina,D20,23-Jan,23-JanPraise Karina,38
+Connie Nadia,E1,23-Jan,23-JanConnie Nadia,34
+Connie Nadia,E2,23-Jan,23-JanConnie Nadia,34
+Connie Nadia,E3,23-Jan,23-JanConnie Nadia,34
+Connie Nadia,E4,23-Jan,23-JanConnie Nadia,34
+Gertrude Jezza,E5,23-Jan,23-JanGertrude Jezza,35
+Dennis Roseanne,E6,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,E7,23-Jan,23-JanDennis Roseanne,36
+Roseanne Winfield,E10,23-Jan,23-JanRoseanne Winfield,40
+Connell Sela,E11,23-Jan,23-JanConnell Sela,41
+Connell Sela,E12,23-Jan,23-JanConnell Sela,41
+Marva Danielle,E13,23-Jan,23-JanMarva Danielle,37
+Praise Karina,E14,23-Jan,23-JanPraise Karina,38
+Praise Karina,E15,23-Jan,23-JanPraise Karina,38
+Debbi Carley,E16,23-Jan,23-JanDebbi Carley,39
+Debbi Carley,E17,23-Jan,23-JanDebbi Carley,39
+Justina Marisa,E18,23-Jan,23-JanJustina Marisa,44
+Justina Marisa,E19,23-Jan,23-JanJustina Marisa,44
+Humphrey Tamela,E20,23-Jan,23-JanHumphrey Tamela,42
+Connie Nadia,F1,23-Jan,23-JanConnie Nadia,34
+Gertrude Jezza,F2,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,F3,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,F4,23-Jan,23-JanGertrude Jezza,35
+Roseanne Winfield,F5,23-Jan,23-JanRoseanne Winfield,40
+Connell Sela,F6,23-Jan,23-JanConnell Sela,41
+Connell Sela,F7,23-Jan,23-JanConnell Sela,41
+Marva Danielle,F8,23-Jan,23-JanMarva Danielle,37
+Marva Danielle,F9,23-Jan,23-JanMarva Danielle,37
+Praise Karina,F10,23-Jan,23-JanPraise Karina,38
+Praise Karina,F11,23-Jan,23-JanPraise Karina,38
+Debbi Carley,F12,23-Jan,23-JanDebbi Carley,39
+Marcy Ruthie,F13,23-Jan,23-JanMarcy Ruthie,43
+Kristins Vin,F14,23-Jan,23-JanKristins Vin,45
+Kristins Vin,F15,23-Jan,23-JanKristins Vin,45
+Kristins Vin,F16,23-Jan,23-JanKristins Vin,45
+Kristins Vin,F17,23-Jan,23-JanKristins Vin,45
+Jeane Rosalie,F18,23-Jan,23-JanJeane Rosalie,46
+Alysa Sara,F19,23-Jan,23-JanAlysa Sara,47
+Karter Eppie,F20,23-Jan,23-JanKarter Eppie,48
+Gertrude Jezza,G1,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,G2,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,G3,23-Jan,23-JanGertrude Jezza,35
+Dennis Roseanne,G4,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,G5,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,G6,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,G7,23-Jan,23-JanDennis Roseanne,36
+Roseanne Winfield,G11,23-Jan,23-JanRoseanne Winfield,40
+Praise Karina,G12,23-Jan,23-JanPraise Karina,38
+Praise Karina,G13,23-Jan,23-JanPraise Karina,38
+Praise Karina,G14,23-Jan,23-JanPraise Karina,38
+Praise Karina,G15,23-Jan,23-JanPraise Karina,38
+Debbi Carley,G16,23-Jan,23-JanDebbi Carley,39
+Debbi Carley,G17,23-Jan,23-JanDebbi Carley,39
+Debbi Carley,G18,23-Jan,23-JanDebbi Carley,39
+Debbi Carley,G19,23-Jan,23-JanDebbi Carley,39
+Justina Marisa,G20,23-Jan,23-JanJustina Marisa,44
+Connie Nadia,H1,23-Jan,23-JanConnie Nadia,34
+Connie Nadia,H2,23-Jan,23-JanConnie Nadia,34
+Connie Nadia,H3,23-Jan,23-JanConnie Nadia,34
+Gertrude Jezza,H4,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,H5,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,H6,23-Jan,23-JanGertrude Jezza,35
+Gertrude Jezza,H7,23-Jan,23-JanGertrude Jezza,35
+Dennis Roseanne,H8,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,H9,23-Jan,23-JanDennis Roseanne,36
+Dennis Roseanne,H10,23-Jan,23-JanDennis Roseanne,36
+Roseanne Winfield,H11,23-Jan,23-JanRoseanne Winfield,40
+Connell Sela,H12,23-Jan,23-JanConnell Sela,41
+Connell Sela,H13,23-Jan,23-JanConnell Sela,41
+Connell Sela,H14,23-Jan,23-JanConnell Sela,41
+Connell Sela,H15,23-Jan,23-JanConnell Sela,41
+Marva Danielle,H16,23-Jan,23-JanMarva Danielle,37
+Marva Danielle,H17,23-Jan,23-JanMarva Danielle,37
+Debbi Carley,H18,23-Jan,23-JanDebbi Carley,39
+Debbi Carley,H19,23-Jan,23-JanDebbi Carley,39
+Debbi Carley,H20,23-Jan,23-JanDebbi Carley,39
+Moreen Caren,A1,24-Jan,24-JanMoreen Caren,49
+Moreen Caren,A2,24-Jan,24-JanMoreen Caren,49
+Melville Brenden,A3,24-Jan,24-JanMelville Brenden,50
+Pece Ravi,A4,24-Jan,24-JanPece Ravi,51
+Pece Ravi,A7,24-Jan,24-JanPece Ravi,51
+Pece Ravi,A8,24-Jan,24-JanPece Ravi,51
+Kade Fae,A12,24-Jan,24-JanKade Fae,52
+Ty Jenessa,A13,24-Jan,24-JanTy Jenessa,53
+Ty Jenessa,A14,24-Jan,24-JanTy Jenessa,53
+Rodger Dorine,A15,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,A16,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,A17,24-Jan,24-JanRodger Dorine,54
+Kristins Vin,A18,24-Jan,24-JanKristins Vin,55
+Kristins Vin,A19,24-Jan,24-JanKristins Vin,55
+Kristins Vin,A20,24-Jan,24-JanKristins Vin,55
+Moreen Caren,B1,24-Jan,24-JanMoreen Caren,49
+Moreen Caren,B2,24-Jan,24-JanMoreen Caren,49
+Moreen Caren,B3,24-Jan,24-JanMoreen Caren,49
+Moreen Caren,B7,24-Jan,24-JanMoreen Caren,49
+Melville Brenden,B8,24-Jan,24-JanMelville Brenden,50
+Melville Brenden,B9,24-Jan,24-JanMelville Brenden,50
+Melville Brenden,B10,24-Jan,24-JanMelville Brenden,50
+Pece Ravi,B11,24-Jan,24-JanPece Ravi,51
+Pece Ravi,B12,24-Jan,24-JanPece Ravi,51
+Kade Fae,B16,24-Jan,24-JanKade Fae,52
+Kade Fae,B17,24-Jan,24-JanKade Fae,52
+Ty Jenessa,B18,24-Jan,24-JanTy Jenessa,53
+Ty Jenessa,B19,24-Jan,24-JanTy Jenessa,53
+Ty Jenessa,B20,24-Jan,24-JanTy Jenessa,53
+Moreen Caren,C1,24-Jan,24-JanMoreen Caren,49
+Moreen Caren,C2,24-Jan,24-JanMoreen Caren,49
+Moreen Caren,C3,24-Jan,24-JanMoreen Caren,49
+Melville Brenden,C4,24-Jan,24-JanMelville Brenden,50
+Melville Brenden,C5,24-Jan,24-JanMelville Brenden,50
+Melville Brenden,C6,24-Jan,24-JanMelville Brenden,50
+Pece Ravi,C7,24-Jan,24-JanPece Ravi,51
+Pece Ravi,C8,24-Jan,24-JanPece Ravi,51
+Pece Ravi,C9,24-Jan,24-JanPece Ravi,51
+Pece Ravi,C10,24-Jan,24-JanPece Ravi,51
+Kade Fae,C12,24-Jan,24-JanKade Fae,52
+Kade Fae,C13,24-Jan,24-JanKade Fae,52
+Kade Fae,C14,24-Jan,24-JanKade Fae,52
+Kade Fae,C15,24-Jan,24-JanKade Fae,52
+Ty Jenessa,C16,24-Jan,24-JanTy Jenessa,53
+Rodger Dorine,C17,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,C18,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,C19,24-Jan,24-JanRodger Dorine,54
+Ibrahim Gerarda,C20,24-Jan,24-JanIbrahim Gerarda,56
+Moreen Caren,D1,24-Jan,24-JanMoreen Caren,49
+Moreen Caren,D2,24-Jan,24-JanMoreen Caren,49
+Moreen Caren,D3,24-Jan,24-JanMoreen Caren,49
+Melville Brenden,D4,24-Jan,24-JanMelville Brenden,50
+Justina Marisa,D9,24-Jan,24-JanJustina Marisa,57
+Ren Aron,D10,24-Jan,24-JanRen Aron,58
+Suz Sophie,D11,24-Jan,24-JanSuz Sophie,59
+Suz Sophie,D12,24-Jan,24-JanSuz Sophie,59
+Suz Sophie,D13,24-Jan,24-JanSuz Sophie,59
+Suz Sophie,D14,24-Jan,24-JanSuz Sophie,59
+Praise Karina,D15,24-Jan,24-JanPraise Karina,60
+Praise Karina,D16,24-Jan,24-JanPraise Karina,60
+Praise Karina,D17,24-Jan,24-JanPraise Karina,60
+Tad Kathryn,D18,24-Jan,24-JanTad Kathryn,61
+Byrne Oralie,D19,24-Jan,24-JanByrne Oralie,62
+Byrne Oralie,D20,24-Jan,24-JanByrne Oralie,62
+Moreen Caren,E1,24-Jan,24-JanMoreen Caren,49
+Moreen Caren,E2,24-Jan,24-JanMoreen Caren,49
+Melville Brenden,E3,24-Jan,24-JanMelville Brenden,50
+Pece Ravi,E4,24-Jan,24-JanPece Ravi,51
+Kade Fae,E8,24-Jan,24-JanKade Fae,52
+Kade Fae,E9,24-Jan,24-JanKade Fae,52
+Kade Fae,E10,24-Jan,24-JanKade Fae,52
+Kade Fae,E11,24-Jan,24-JanKade Fae,52
+Ty Jenessa,E12,24-Jan,24-JanTy Jenessa,53
+Justina Marisa,E13,24-Jan,24-JanJustina Marisa,57
+Justina Marisa,E14,24-Jan,24-JanJustina Marisa,57
+Justina Marisa,E15,24-Jan,24-JanJustina Marisa,57
+Rodger Dorine,E16,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,E17,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,E18,24-Jan,24-JanRodger Dorine,54
+Ibrahim Gerarda,E19,24-Jan,24-JanIbrahim Gerarda,56
+Ibrahim Gerarda,E20,24-Jan,24-JanIbrahim Gerarda,56
+Melville Brenden,F1,24-Jan,24-JanMelville Brenden,50
+Melville Brenden,F2,24-Jan,24-JanMelville Brenden,50
+Pece Ravi,F3,24-Jan,24-JanPece Ravi,51
+Pece Ravi,F4,24-Jan,24-JanPece Ravi,51
+Pece Ravi,F6,24-Jan,24-JanPece Ravi,51
+Kade Fae,F12,24-Jan,24-JanKade Fae,52
+Justina Marisa,F13,24-Jan,24-JanJustina Marisa,57
+Justina Marisa,F14,24-Jan,24-JanJustina Marisa,57
+Justina Marisa,F15,24-Jan,24-JanJustina Marisa,57
+Rodger Dorine,F16,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,F17,24-Jan,24-JanRodger Dorine,54
+Ibrahim Gerarda,F18,24-Jan,24-JanIbrahim Gerarda,56
+Ibrahim Gerarda,F19,24-Jan,24-JanIbrahim Gerarda,56
+Ren Aron,F20,24-Jan,24-JanRen Aron,58
+Melville Brenden,G1,24-Jan,24-JanMelville Brenden,50
+Melville Brenden,G2,24-Jan,24-JanMelville Brenden,50
+Melville Brenden,G3,24-Jan,24-JanMelville Brenden,50
+Melville Brenden,G4,24-Jan,24-JanMelville Brenden,50
+Pece Ravi,G5,24-Jan,24-JanPece Ravi,51
+Pece Ravi,G6,24-Jan,24-JanPece Ravi,51
+Kade Fae,G8,24-Jan,24-JanKade Fae,52
+Ty Jenessa,G9,24-Jan,24-JanTy Jenessa,53
+Justina Marisa,G10,24-Jan,24-JanJustina Marisa,57
+Justina Marisa,G11,24-Jan,24-JanJustina Marisa,57
+Rodger Dorine,G12,24-Jan,24-JanRodger Dorine,54
+Ibrahim Gerarda,G13,24-Jan,24-JanIbrahim Gerarda,56
+Ibrahim Gerarda,G14,24-Jan,24-JanIbrahim Gerarda,56
+Ibrahim Gerarda,G15,24-Jan,24-JanIbrahim Gerarda,56
+Ren Aron,G16,24-Jan,24-JanRen Aron,58
+Ren Aron,G17,24-Jan,24-JanRen Aron,58
+Suz Sophie,G18,24-Jan,24-JanSuz Sophie,59
+Connie Nadia,G19,24-Jan,24-JanConnie Nadia,63
+Connie Nadia,G20,24-Jan,24-JanConnie Nadia,63
+Pece Ravi,H1,24-Jan,24-JanPece Ravi,51
+Pece Ravi,H2,24-Jan,24-JanPece Ravi,51
+Pece Ravi,H3,24-Jan,24-JanPece Ravi,51
+Kade Fae,H6,24-Jan,24-JanKade Fae,52
+Kade Fae,H7,24-Jan,24-JanKade Fae,52
+Kade Fae,H8,24-Jan,24-JanKade Fae,52
+Ty Jenessa,H9,24-Jan,24-JanTy Jenessa,53
+Justina Marisa,H10,24-Jan,24-JanJustina Marisa,57
+Rodger Dorine,H11,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,H12,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,H13,24-Jan,24-JanRodger Dorine,54
+Rodger Dorine,H14,24-Jan,24-JanRodger Dorine,54
+Ibrahim Gerarda,H15,24-Jan,24-JanIbrahim Gerarda,56
+Ibrahim Gerarda,H16,24-Jan,24-JanIbrahim Gerarda,56
+Ibrahim Gerarda,H17,24-Jan,24-JanIbrahim Gerarda,56
+Ren Aron,H18,24-Jan,24-JanRen Aron,58
+Ren Aron,H19,24-Jan,24-JanRen Aron,58
+Kristins Vin,H20,24-Jan,24-JanKristins Vin,55
+Connell Sela,A1,25-Jan,25-JanConnell Sela,64
+Connell Sela,A2,25-Jan,25-JanConnell Sela,64
+Connell Sela,A3,25-Jan,25-JanConnell Sela,64
+Praise Karina,A4,25-Jan,25-JanPraise Karina,65
+Praise Karina,A5,25-Jan,25-JanPraise Karina,65
+Praise Karina,A6,25-Jan,25-JanPraise Karina,65
+Pece Ravi,A13,25-Jan,25-JanPece Ravi,66
+Pece Ravi,A14,25-Jan,25-JanPece Ravi,66
+Pece Ravi,A15,25-Jan,25-JanPece Ravi,66
+Pece Ravi,A16,25-Jan,25-JanPece Ravi,66
+Lorraine Alyse,A17,25-Jan,25-JanLorraine Alyse,67
+Melville Brenden,A18,25-Jan,25-JanMelville Brenden,68
+Melville Brenden,A19,25-Jan,25-JanMelville Brenden,68
+Melville Brenden,A20,25-Jan,25-JanMelville Brenden,68
+Connell Sela,B1,25-Jan,25-JanConnell Sela,64
+Connell Sela,B2,25-Jan,25-JanConnell Sela,64
+Connell Sela,B3,25-Jan,25-JanConnell Sela,64
+Connell Sela,B4,25-Jan,25-JanConnell Sela,64
+Suz Sophie,B5,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,B6,25-Jan,25-JanSuz Sophie,69
+Praise Karina,B7,25-Jan,25-JanPraise Karina,65
+Praise Karina,B8,25-Jan,25-JanPraise Karina,65
+Praise Karina,B9,25-Jan,25-JanPraise Karina,65
+Praise Karina,B10,25-Jan,25-JanPraise Karina,65
+Pece Ravi,B14,25-Jan,25-JanPece Ravi,66
+Pece Ravi,B15,25-Jan,25-JanPece Ravi,66
+Pece Ravi,B16,25-Jan,25-JanPece Ravi,66
+Pece Ravi,B17,25-Jan,25-JanPece Ravi,66
+Lorraine Alyse,B18,25-Jan,25-JanLorraine Alyse,67
+Lorraine Alyse,B19,25-Jan,25-JanLorraine Alyse,67
+Lorraine Alyse,B20,25-Jan,25-JanLorraine Alyse,67
+Suz Sophie,C1,25-Jan,25-JanSuz Sophie,69
+Praise Karina,C4,25-Jan,25-JanPraise Karina,65
+Praise Karina,C5,25-Jan,25-JanPraise Karina,65
+Praise Karina,C6,25-Jan,25-JanPraise Karina,65
+Pece Ravi,C10,25-Jan,25-JanPece Ravi,66
+Pece Ravi,C11,25-Jan,25-JanPece Ravi,66
+Pece Ravi,C12,25-Jan,25-JanPece Ravi,66
+Karter Eppie,C13,25-Jan,25-JanKarter Eppie,70
+Ogden Terrance,C14,25-Jan,25-JanOgden Terrance,71
+Humphrey Tamela,C15,25-Jan,25-JanHumphrey Tamela,72
+Humphrey Tamela,C16,25-Jan,25-JanHumphrey Tamela,72
+Humphrey Tamela,C17,25-Jan,25-JanHumphrey Tamela,72
+Ibrahim Gerarda,C18,25-Jan,25-JanIbrahim Gerarda,73
+Ibrahim Gerarda,C19,25-Jan,25-JanIbrahim Gerarda,73
+Ibrahim Gerarda,C20,25-Jan,25-JanIbrahim Gerarda,73
+Suz Sophie,D1,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,D2,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,D3,25-Jan,25-JanSuz Sophie,69
+Praise Karina,D7,25-Jan,25-JanPraise Karina,65
+Praise Karina,D8,25-Jan,25-JanPraise Karina,65
+Praise Karina,D9,25-Jan,25-JanPraise Karina,65
+Pece Ravi,D14,25-Jan,25-JanPece Ravi,66
+Pece Ravi,D15,25-Jan,25-JanPece Ravi,66
+Pece Ravi,D16,25-Jan,25-JanPece Ravi,66
+Pece Ravi,D17,25-Jan,25-JanPece Ravi,66
+Lorraine Alyse,D18,25-Jan,25-JanLorraine Alyse,67
+Melville Brenden,D19,25-Jan,25-JanMelville Brenden,68
+Melville Brenden,D20,25-Jan,25-JanMelville Brenden,68
+Connell Sela,E1,25-Jan,25-JanConnell Sela,64
+Connell Sela,E2,25-Jan,25-JanConnell Sela,64
+Connell Sela,E3,25-Jan,25-JanConnell Sela,64
+Connell Sela,E4,25-Jan,25-JanConnell Sela,64
+Suz Sophie,E5,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,E6,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,E7,25-Jan,25-JanSuz Sophie,69
+Praise Karina,E8,25-Jan,25-JanPraise Karina,65
+Praise Karina,E9,25-Jan,25-JanPraise Karina,65
+Praise Karina,E10,25-Jan,25-JanPraise Karina,65
+Praise Karina,E11,25-Jan,25-JanPraise Karina,65
+Pece Ravi,E14,25-Jan,25-JanPece Ravi,66
+Pece Ravi,E15,25-Jan,25-JanPece Ravi,66
+Melville Brenden,E16,25-Jan,25-JanMelville Brenden,68
+Melville Brenden,E17,25-Jan,25-JanMelville Brenden,68
+Karter Eppie,E18,25-Jan,25-JanKarter Eppie,70
+Karter Eppie,E19,25-Jan,25-JanKarter Eppie,70
+Ogden Terrance,E20,25-Jan,25-JanOgden Terrance,71
+Connell Sela,F1,25-Jan,25-JanConnell Sela,64
+Connell Sela,F2,25-Jan,25-JanConnell Sela,64
+Connell Sela,F3,25-Jan,25-JanConnell Sela,64
+Suz Sophie,F4,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,F5,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,F6,25-Jan,25-JanSuz Sophie,69
+Pece Ravi,F11,25-Jan,25-JanPece Ravi,66
+Pece Ravi,F12,25-Jan,25-JanPece Ravi,66
+Lorraine Alyse,F13,25-Jan,25-JanLorraine Alyse,67
+Karter Eppie,F14,25-Jan,25-JanKarter Eppie,70
+Karter Eppie,F15,25-Jan,25-JanKarter Eppie,70
+Humphrey Tamela,F16,25-Jan,25-JanHumphrey Tamela,72
+Humphrey Tamela,F17,25-Jan,25-JanHumphrey Tamela,72
+Ibrahim Gerarda,F18,25-Jan,25-JanIbrahim Gerarda,73
+Ibrahim Gerarda,F19,25-Jan,25-JanIbrahim Gerarda,73
+Carissa Alexandria,F20,25-Jan,25-JanCarissa Alexandria,74
+Connell Sela,G1,25-Jan,25-JanConnell Sela,64
+Connell Sela,G2,25-Jan,25-JanConnell Sela,64
+Connell Sela,G3,25-Jan,25-JanConnell Sela,64
+Connell Sela,G4,25-Jan,25-JanConnell Sela,64
+Suz Sophie,G5,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,G6,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,G7,25-Jan,25-JanSuz Sophie,69
+Praise Karina,G8,25-Jan,25-JanPraise Karina,65
+Praise Karina,G9,25-Jan,25-JanPraise Karina,65
+Praise Karina,G10,25-Jan,25-JanPraise Karina,65
+Pece Ravi,G12,25-Jan,25-JanPece Ravi,66
+Pece Ravi,G13,25-Jan,25-JanPece Ravi,66
+Lorraine Alyse,G14,25-Jan,25-JanLorraine Alyse,67
+Lorraine Alyse,G15,25-Jan,25-JanLorraine Alyse,67
+Melville Brenden,G16,25-Jan,25-JanMelville Brenden,68
+Melville Brenden,G17,25-Jan,25-JanMelville Brenden,68
+Melville Brenden,G18,25-Jan,25-JanMelville Brenden,68
+Melville Brenden,G19,25-Jan,25-JanMelville Brenden,68
+Karter Eppie,G20,25-Jan,25-JanKarter Eppie,70
+Connell Sela,H1,25-Jan,25-JanConnell Sela,64
+Connell Sela,H2,25-Jan,25-JanConnell Sela,64
+Suz Sophie,H3,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,H4,25-Jan,25-JanSuz Sophie,69
+Suz Sophie,H5,25-Jan,25-JanSuz Sophie,69
+Lorraine Alyse,H9,25-Jan,25-JanLorraine Alyse,67
+Lorraine Alyse,H10,25-Jan,25-JanLorraine Alyse,67
+Lorraine Alyse,H11,25-Jan,25-JanLorraine Alyse,67
+Karter Eppie,H12,25-Jan,25-JanKarter Eppie,70
+Karter Eppie,H13,25-Jan,25-JanKarter Eppie,70
+Karter Eppie,H14,25-Jan,25-JanKarter Eppie,70
+Ogden Terrance,H15,25-Jan,25-JanOgden Terrance,71
+Humphrey Tamela,H16,25-Jan,25-JanHumphrey Tamela,72
+Ibrahim Gerarda,H17,25-Jan,25-JanIbrahim Gerarda,73
+Carissa Alexandria,H18,25-Jan,25-JanCarissa Alexandria,74
+Carissa Alexandria,H19,25-Jan,25-JanCarissa Alexandria,74
+Carissa Alexandria,H20,25-Jan,25-JanCarissa Alexandria,74
+Rebekah Sharlene,A1,20-Jan,20-JanRebekah Sharlene,75
+Bethel Romy,A2,20-Jan,20-JanBethel Romy,76
+Bethel Romy,A3,20-Jan,20-JanBethel Romy,76
+Connell Sela,A4,20-Jan,20-JanConnell Sela,77
+Connell Sela,A5,20-Jan,20-JanConnell Sela,77
+Connell Sela,A6,20-Jan,20-JanConnell Sela,77
+Connell Sela,A7,20-Jan,20-JanConnell Sela,77
+Praise Karina,A8,20-Jan,20-JanPraise Karina,78
+Praise Karina,A9,20-Jan,20-JanPraise Karina,78
+Praise Karina,A10,20-Jan,20-JanPraise Karina,78
+Ren Aron,A11,20-Jan,20-JanRen Aron,79
+Ren Aron,A12,20-Jan,20-JanRen Aron,79
+Ren Aron,A13,20-Jan,20-JanRen Aron,79
+Ren Aron,A14,20-Jan,20-JanRen Aron,79
+Alysa Sara,A15,20-Jan,20-JanAlysa Sara,80
+Alysa Sara,A16,20-Jan,20-JanAlysa Sara,80
+Alysa Sara,A17,20-Jan,20-JanAlysa Sara,80
+Jeane Rosalie,A18,20-Jan,20-JanJeane Rosalie,81
+Justina Marisa,A19,20-Jan,20-JanJustina Marisa,82
+Baxter Georgene,A20,20-Jan,20-JanBaxter Georgene,83
+Connell Sela,B1,20-Jan,20-JanConnell Sela,77
+Pece Ravi,B4,20-Jan,20-JanPece Ravi,84
+Praise Karina,B5,20-Jan,20-JanPraise Karina,78
+Praise Karina,B10,20-Jan,20-JanPraise Karina,78
+Praise Karina,B11,20-Jan,20-JanPraise Karina,78
+Ren Aron,B12,20-Jan,20-JanRen Aron,79
+Alysa Sara,B13,20-Jan,20-JanAlysa Sara,80
+Alysa Sara,B14,20-Jan,20-JanAlysa Sara,80
+Alysa Sara,B15,20-Jan,20-JanAlysa Sara,80
+Jeane Rosalie,B16,20-Jan,20-JanJeane Rosalie,81
+Jeane Rosalie,B17,20-Jan,20-JanJeane Rosalie,81
+Carissa Alexandria,B18,20-Jan,20-JanCarissa Alexandria,85
+Carissa Alexandria,B19,20-Jan,20-JanCarissa Alexandria,85
+Carissa Alexandria,B20,20-Jan,20-JanCarissa Alexandria,85
+Rebekah Sharlene,C1,20-Jan,20-JanRebekah Sharlene,75
+Bethel Romy,C2,20-Jan,20-JanBethel Romy,76
+Pece Ravi,C6,20-Jan,20-JanPece Ravi,84
+Praise Karina,C7,20-Jan,20-JanPraise Karina,78
+Praise Karina,C8,20-Jan,20-JanPraise Karina,78
+Praise Karina,C11,20-Jan,20-JanPraise Karina,78
+Alysa Sara,C12,20-Jan,20-JanAlysa Sara,80
+Alysa Sara,C13,20-Jan,20-JanAlysa Sara,80
+Alysa Sara,C14,20-Jan,20-JanAlysa Sara,80
+Justina Marisa,C15,20-Jan,20-JanJustina Marisa,82
+Justina Marisa,C16,20-Jan,20-JanJustina Marisa,82
+Baxter Georgene,C17,20-Jan,20-JanBaxter Georgene,83
+Baxter Georgene,C18,20-Jan,20-JanBaxter Georgene,83
+Baxter Georgene,C19,20-Jan,20-JanBaxter Georgene,83
+Carissa Alexandria,C20,20-Jan,20-JanCarissa Alexandria,85
+Rebekah Sharlene,D1,20-Jan,20-JanRebekah Sharlene,75
+Rebekah Sharlene,D2,20-Jan,20-JanRebekah Sharlene,75
+Rebekah Sharlene,D3,20-Jan,20-JanRebekah Sharlene,75
+Rebekah Sharlene,D4,20-Jan,20-JanRebekah Sharlene,75
+Bethel Romy,D5,20-Jan,20-JanBethel Romy,76
+Bethel Romy,D6,20-Jan,20-JanBethel Romy,76
+Bethel Romy,D7,20-Jan,20-JanBethel Romy,76
+Connell Sela,D8,20-Jan,20-JanConnell Sela,77
+Connell Sela,D9,20-Jan,20-JanConnell Sela,77
+Connell Sela,D10,20-Jan,20-JanConnell Sela,77
+Connell Sela,D11,20-Jan,20-JanConnell Sela,77
+Praise Karina,D14,20-Jan,20-JanPraise Karina,78
+Praise Karina,D15,20-Jan,20-JanPraise Karina,78
+Ren Aron,D16,20-Jan,20-JanRen Aron,79
+Ren Aron,D17,20-Jan,20-JanRen Aron,79
+Ren Aron,D18,20-Jan,20-JanRen Aron,79
+Jeane Rosalie,D19,20-Jan,20-JanJeane Rosalie,81
+Jeane Rosalie,D20,20-Jan,20-JanJeane Rosalie,81
+Rebekah Sharlene,E1,20-Jan,20-JanRebekah Sharlene,75
+Rebekah Sharlene,E2,20-Jan,20-JanRebekah Sharlene,75
+Rebekah Sharlene,E3,20-Jan,20-JanRebekah Sharlene,75
+Bethel Romy,E4,20-Jan,20-JanBethel Romy,76
+Bethel Romy,E5,20-Jan,20-JanBethel Romy,76
+Connell Sela,E8,20-Jan,20-JanConnell Sela,77
+Connell Sela,E9,20-Jan,20-JanConnell Sela,77
+Connell Sela,E10,20-Jan,20-JanConnell Sela,77
+Pece Ravi,E11,20-Jan,20-JanPece Ravi,84
+Pece Ravi,E12,20-Jan,20-JanPece Ravi,84
+Pece Ravi,E13,20-Jan,20-JanPece Ravi,84
+Pece Ravi,E14,20-Jan,20-JanPece Ravi,84
+Ren Aron,E15,20-Jan,20-JanRen Aron,79
+Ren Aron,E16,20-Jan,20-JanRen Aron,79
+Ren Aron,E17,20-Jan,20-JanRen Aron,79
+Ren Aron,E18,20-Jan,20-JanRen Aron,79
+Alysa Sara,E19,20-Jan,20-JanAlysa Sara,80
+Alysa Sara,E20,20-Jan,20-JanAlysa Sara,80
+Bethel Romy,F1,20-Jan,20-JanBethel Romy,76
+Connell Sela,F2,20-Jan,20-JanConnell Sela,77
+Connell Sela,F3,20-Jan,20-JanConnell Sela,77
+Pece Ravi,F5,20-Jan,20-JanPece Ravi,84
+Praise Karina,F6,20-Jan,20-JanPraise Karina,78
+Ren Aron,F7,20-Jan,20-JanRen Aron,79
+Jeane Rosalie,F8,20-Jan,20-JanJeane Rosalie,81
+Jeane Rosalie,F9,20-Jan,20-JanJeane Rosalie,81
+Jeane Rosalie,F10,20-Jan,20-JanJeane Rosalie,81
+Jeane Rosalie,F11,20-Jan,20-JanJeane Rosalie,81
+Justina Marisa,F12,20-Jan,20-JanJustina Marisa,82
+Justina Marisa,F13,20-Jan,20-JanJustina Marisa,82
+Justina Marisa,F14,20-Jan,20-JanJustina Marisa,82
+Justina Marisa,F15,20-Jan,20-JanJustina Marisa,82
+Baxter Georgene,F16,20-Jan,20-JanBaxter Georgene,83
+Baxter Georgene,F17,20-Jan,20-JanBaxter Georgene,83
+Baxter Georgene,F18,20-Jan,20-JanBaxter Georgene,83
+Suz Sophie,F19,20-Jan,20-JanSuz Sophie,86
+Suz Sophie,F20,20-Jan,20-JanSuz Sophie,86
+Rebekah Sharlene,G1,20-Jan,20-JanRebekah Sharlene,75
+Rebekah Sharlene,G2,20-Jan,20-JanRebekah Sharlene,75
+Bethel Romy,G3,20-Jan,20-JanBethel Romy,76
+Bethel Romy,G4,20-Jan,20-JanBethel Romy,76
+Connell Sela,G5,20-Jan,20-JanConnell Sela,77
+Connell Sela,G6,20-Jan,20-JanConnell Sela,77
+Connell Sela,G7,20-Jan,20-JanConnell Sela,77
+Pece Ravi,G8,20-Jan,20-JanPece Ravi,84
+Pece Ravi,G9,20-Jan,20-JanPece Ravi,84
+Pece Ravi,G10,20-Jan,20-JanPece Ravi,84
+Pece Ravi,G11,20-Jan,20-JanPece Ravi,84
+Praise Karina,G12,20-Jan,20-JanPraise Karina,78
+Praise Karina,G13,20-Jan,20-JanPraise Karina,78
+Praise Karina,G14,20-Jan,20-JanPraise Karina,78
+Praise Karina,G15,20-Jan,20-JanPraise Karina,78
+Ren Aron,G16,20-Jan,20-JanRen Aron,79
+Alysa Sara,G17,20-Jan,20-JanAlysa Sara,80
+Jeane Rosalie,G18,20-Jan,20-JanJeane Rosalie,81
+Justina Marisa,G19,20-Jan,20-JanJustina Marisa,82
+Justina Marisa,G20,20-Jan,20-JanJustina Marisa,82
+Rebekah Sharlene,H1,20-Jan,20-JanRebekah Sharlene,75
+Rebekah Sharlene,H2,20-Jan,20-JanRebekah Sharlene,75
+Rebekah Sharlene,H3,20-Jan,20-JanRebekah Sharlene,75
+Rebekah Sharlene,H4,20-Jan,20-JanRebekah Sharlene,75
+Bethel Romy,H5,20-Jan,20-JanBethel Romy,76
+Bethel Romy,H6,20-Jan,20-JanBethel Romy,76
+Bethel Romy,H7,20-Jan,20-JanBethel Romy,76
+Bethel Romy,H8,20-Jan,20-JanBethel Romy,76
+Connell Sela,H9,20-Jan,20-JanConnell Sela,77
+Connell Sela,H10,20-Jan,20-JanConnell Sela,77
+Connell Sela,H11,20-Jan,20-JanConnell Sela,77
+Pece Ravi,H16,20-Jan,20-JanPece Ravi,84
+Pece Ravi,H17,20-Jan,20-JanPece Ravi,84
+Pece Ravi,H18,20-Jan,20-JanPece Ravi,84
+Praise Karina,H19,20-Jan,20-JanPraise Karina,78
+Praise Karina,H20,20-Jan,20-JanPraise Karina,78
+Crispin Ralf,A6,19-Jan,19-JanCrispin Ralf,87
+Kortney Gord,A7,19-Jan,19-JanKortney Gord,88
+Sanjana Pooja,A10,19-Jan,19-JanSanjana Pooja,89
+Crispin Ralf,A4,21-Jan,21-JanCrispin Ralf,90
+Kortney Gord,A7,22-Jan,22-JanKortney Gord,91
+Kortney Gord,A6,23-Jan,23-JanKortney Gord,92
+Sanjana Pooja,A10,23-Jan,23-JanSanjana Pooja,93
+Crispin Ralf,A5,24-Jan,24-JanCrispin Ralf,94
+Sanjana Pooja,A10,24-Jan,24-JanSanjana Pooja,95
+Sanjana Pooja,A7,25-Jan,25-JanSanjana Pooja,96
+Oswin Tillie,B9,19-Jan,19-JanOswin Tillie,97
+Oswin Tillie,B9,20-Jan,20-JanOswin Tillie,98
+Rachyl Roly,B6,20-Jan,20-JanRachyl Roly,99
+Rachyl Roly,B2,21-Jan,21-JanRachyl Roly,100
+Oswin Tillie,B6,22-Jan,22-JanOswin Tillie,101
+Rachyl Roly,B8,22-Jan,22-JanRachyl Roly,102
+Sinclair Kendal,B5,22-Jan,22-JanSinclair Kendal,103
+Rachyl Roly,B5,23-Jan,23-JanRachyl Roly,104
+Sinclair Kendal,B6,23-Jan,23-JanSinclair Kendal,105
+Sinclair Kendal,B4,24-Jan,24-JanSinclair Kendal,106
+Sheri John Paul,C4,19-Jan,19-JanSheri John Paul,107
+Crispin Ralf,C9,20-Jan,20-JanCrispin Ralf,108
+Sheri John Paul,C4,20-Jan,20-JanSheri John Paul,109
+Sheri John Paul,C9,23-Jan,23-JanSheri John Paul,110
+Sheri John Paul,C2,25-Jan,25-JanSheri John Paul,111
+Mikayla Nevil,D11,19-Jan,19-JanMikayla Nevil,112
+Ryder Elissa,D9,21-Jan,21-JanRyder Elissa,113
+Ryder Elissa,D6,23-Jan,23-JanRyder Elissa,114
+Oswin Tillie,D4,25-Jan,25-JanOswin Tillie,115
+Izabelle Kelli,E11,19-Jan,19-JanIzabelle Kelli,116
+Izabelle Kelli,E6,20-Jan,20-JanIzabelle Kelli,117
+Izabelle Kelli,E7,21-Jan,21-JanIzabelle Kelli,118
+Izabelle Kelli,E8,22-Jan,22-JanIzabelle Kelli,119
+Mikayla Nevil,E7,22-Jan,22-JanMikayla Nevil,120
+Rachyl Roly,F8,24-Jan,24-JanRachyl Roly,121
+Ryder Elissa,F5,24-Jan,24-JanRyder Elissa,122
+Mikayla Nevil,F8,25-Jan,25-JanMikayla Nevil,123
+Sheri John Paul,H8,22-Jan,22-JanSheri John Paul,124
+Crispin Ralf,A7,19-Jan,19-JanCrispin Ralf,87
+Kortney Gord,A8,19-Jan,19-JanKortney Gord,88
+Sanjana Pooja,A11,19-Jan,19-JanSanjana Pooja,89
+Crispin Ralf,A6,24-Jan,24-JanCrispin Ralf,94
+Sanjana Pooja,A11,24-Jan,24-JanSanjana Pooja,95
+Sanjana Pooja,A8,25-Jan,25-JanSanjana Pooja,96
+Oswin Tillie,B10,19-Jan,19-JanOswin Tillie,97
+Rachyl Roly,B7,20-Jan,20-JanRachyl Roly,99
+Rachyl Roly,B3,21-Jan,21-JanRachyl Roly,100
+Rachyl Roly,B9,22-Jan,22-JanRachyl Roly,102
+Rachyl Roly,B6,23-Jan,23-JanRachyl Roly,104
+Sinclair Kendal,B7,23-Jan,23-JanSinclair Kendal,105
+Sinclair Kendal,B5,24-Jan,24-JanSinclair Kendal,106
+Crispin Ralf,C10,20-Jan,20-JanCrispin Ralf,108
+Sheri John Paul,C5,20-Jan,20-JanSheri John Paul,109
+Sheri John Paul,C10,23-Jan,23-JanSheri John Paul,110
+Sheri John Paul,C3,25-Jan,25-JanSheri John Paul,111
+Mikayla Nevil,D12,19-Jan,19-JanMikayla Nevil,112
+Ryder Elissa,D10,21-Jan,21-JanRyder Elissa,113
+Ryder Elissa,D7,23-Jan,23-JanRyder Elissa,114
+Oswin Tillie,D5,25-Jan,25-JanOswin Tillie,115
+Izabelle Kelli,E7,20-Jan,20-JanIzabelle Kelli,117
+Izabelle Kelli,E8,21-Jan,21-JanIzabelle Kelli,118
+Mikayla Nevil,E8,22-Jan,22-JanMikayla Nevil,120
+Rachyl Roly,F9,24-Jan,24-JanRachyl Roly,121
+Mikayla Nevil,F9,25-Jan,25-JanMikayla Nevil,123
+Sanjana Pooja,A9,25-Jan,25-JanSanjana Pooja,96
+Oswin Tillie,B11,19-Jan,19-JanOswin Tillie,97
+Rachyl Roly,B8,20-Jan,20-JanRachyl Roly,99
+Rachyl Roly,B7,23-Jan,23-JanRachyl Roly,104
+Sinclair Kendal,B8,23-Jan,23-JanSinclair Kendal,105
+Sinclair Kendal,B6,24-Jan,24-JanSinclair Kendal,106
+Mikayla Nevil,D13,19-Jan,19-JanMikayla Nevil,112
+Oswin Tillie,D6,25-Jan,25-JanOswin Tillie,115
+Mikayla Nevil,F10,25-Jan,25-JanMikayla Nevil,123
