@@ -31,16 +31,24 @@ load csv with headers from 'https://github.com/rel8edto/PublicDatasets/raw/main/
 match (e:Event)-[r:COMMITED]-(t:Ticket) set t:Marked;
 match (t:Ticket) where t.date in ['26-Jan','27-Jan','28-Jan','29-Jan','30-Jan','31-Jan'] detach delete t;
 
-# product map
+
+// ------------------------------------
+// product map
 match (t:Ticket) where t.date in ['26-Jan','27-Jan','28-Jan','29-Jan','30-Jan','31-Jan'] detach delete t;
 
-# person risk
+// person risk
 match (t:Ticket)--(p:Person) optional match (t)--(e:Event)  with  distinct p.name as name, count(e) as events, count(t) as tickets with *, toFloat(events)/tickets as risk return * order by risk desc;
 
-# product risk
+// product risk
 match (t:Ticket)--(p:Product) optional match (t)--(e:Event)  with  distinct p.name as name, count(e) as events, count(t) as tickets with *, toFloat(events)/tickets as risk return * order by risk desc;
 
-# Seat risk
+// Seat risk
 match (t:Ticket)--(s:Seat) optional match (t)--(e:Event)  with  distinct s.name as name, count(e) as events, count(t) as tickets with *, toFloat(events)/tickets as risk return * order by risk desc;
 
-# Gate risk
+// Gate risk
+match (e:Event)--(t:Ticket)--(s:Seat)--(g:Gate)  return g,t,s,e;
+
+match (t:Ticket)--(s:Seat)--(g:Gate) optional match (e:Event)--(t) with distinct g.name as name, count(distinct e) as events, count(distinct t) as tickets with *, toFloat(events)/tickets as risk return * order by risk desc;
+
+//output for modeling
+match (p:Person)--(t:Ticket)--(s:Seat)--(g:Gate) optional match (sr:SecurityGuardTeam)--(e:Event)--(t) optional match (pr:Product)--(t:Ticket) return  t.ticketID as ticketid,p.name as person, p.age as age,s.name as seat, sr.team as team, e.evtType as eventType, t.date as date, g.name as gate, collect(distinct pr.name) as products
