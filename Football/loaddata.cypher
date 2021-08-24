@@ -34,7 +34,7 @@ match (t:Ticket) where t.date in ['26-Jan','27-Jan','28-Jan','29-Jan','30-Jan','
 
 // ------------------------------------
 // product map
-match (t:Ticket) where t.date in ['26-Jan','27-Jan','28-Jan','29-Jan','30-Jan','31-Jan'] detach delete t;
+match (p:Product)--(t:Ticket)--(:Event) where t.month = 'Jan' return *;
 
 // person risk
 match (t:Ticket)--(p:Person) optional match (t)--(e:Event)  with  distinct p.name as name, count(e) as events, count(t) as tickets with *, toFloat(events)/tickets as risk return * order by risk desc;
@@ -52,3 +52,9 @@ match (t:Ticket)--(s:Seat)--(g:Gate) optional match (e:Event)--(t) with distinct
 
 //output for modeling
 match (p:Person)--(t:Ticket)--(s:Seat)--(g:Gate) optional match (sr:SecurityGuardTeam)--(e:Event)--(t) optional match (pr:Product)--(t:Ticket) return  t.ticketID as ticketid,p.name as person, p.age as age,s.name as seat, sr.team as team, e.evtType as eventType, t.date as date, g.name as gate, collect(distinct pr.name) as products
+
+// merge person
+// match (x:Person {name:"Ryder Elissa"}), (y:Person {name:"Julian Monday"}) with x,y call apoc.refactor.mergeNodes([x,y],{properties:"discard", mergeRels:true}) yield node return node
+
+//random delete Events
+//match (e:Event)--(t:Ticket) with e,t limit 3 remove t:Marked detach delete e
